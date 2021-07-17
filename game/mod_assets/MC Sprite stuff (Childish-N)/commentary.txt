@@ -1,0 +1,53 @@
+============================================
+Concept
+============================================
+The first thing come in mind when i'm about to remake the protag sprite was simple, "It must imitate Satchely's sprites as close as possible".
+Simple on paper, but gets ridiculous as i keep working on it.
+
+I always think Satchely's art looks pretty. Characters she draws either looks cool or cute, so it's kind of going against my goal if i try to make MC looks dense.
+So instead of "Basic, dense and clueless" type of MC, i went for "Cool, slightly ignorant and listless".
+
+I took reference from few animes for his characteristic, which also a reference on what kind of expression he should make.
+
+============================================
+Work progress
+============================================
+While drawing him, more or less i just stick to available DDLC references for colors, shading and stuff.
+
+The most difficult part wasn't drawing his body or clothes. It's the eyes, that plays major role on how cool MC will look, and how similiar it is to other DDLC sprite.
+
+Initially i was about to make MC's eyes dark brown. But it looked so plain so i stick to golden eyes, while also keep in line with Gyths's chibi MC sprite.
+Since red eyes quite popular, i decide to make red-eyed MC as well. Like how Cylent-Nite's sprite does. Not a fan of the red eyes, though.
+
+============================================
+Expressions
+============================================
+Neutral, slight expressions [a, b, c, d]
+Normal expression sets. Doesn't convey strong emotions.
+------------------------------------------------------------------
+Weirded/Sarcastic expressions [e, f, g]
+I always think these are must-have for anime protagonists, especially in comedic slice-of-life as they react to wacky casts.
+------------------------------------------------------------------
+Surprised expressions [h, i, j]
+Self-explanatory, mild shock on day-to-day basis and/or in awe with something. Like Monika's charm.
+------------------------------------------------------------------
+Happy/Relaxed expressions [k, l, m]
+Self-explanatory, because there IS happiness in literature club.
+------------------------------------------------------------------
+Blushing expression [n, o, p, q]
+Since he's your average neet, expect him to blush often. Added tsundere blush [q] because every MC had to be tsundere to childhood friend they often tease.
+------------------------------------------------------------------
+Sad/Concerned expressions [r, s, t, u]
+While [s] only conveys mix of mild concern/weirded out, i imagine the rest would be often seen in Sayori moments, as MC does worry about Sayori.
+------------------------------------------------------------------
+Mad expressions [v, w, x]
+Actually i don't remember how often MC will need these.
+------------------------------------------------------------------
+Nervous expressions [y, z]
+Another must-have expressions. Probably because it's impossible to NOT see this in harem anime. *Cue Natsuki's skirt-peeping scene*
+------------------------------------------------------------------
+Special expressions [error, error1, shock]
+I would reserve these expressions only after DDLC's dark side finally revealed.
+[error] is how i always imagine Act 2 MC everytime he's not responding, while [error1] is just brief transition between normal/error MC.
+[shock] is exclusive to Sayori's demise, just like Natsuki's shock face exclusive to Yuri's demise.
+------------------------------------------------------------------
