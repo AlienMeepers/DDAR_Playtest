@@ -389,7 +389,7 @@ label story:
     "I feel my senses come back to me as I slowly wake up."
     "I open my eyes and take in the environment around me."
     "It doesn’t take long for me to determine that I’m in someone’s bedroom."
-    "Or… my bedroom?"
+    "Or... my bedroom?"
     "My head feels somewhat foggy, but that may be due to the lack of sleep I got last night."
     "At least I hope that’s the case. God knows what side effects I could have from traveling across realities like this."
     "I walk up to the bedroom door and slowly open it."
@@ -424,10 +424,10 @@ label story:
     "{i}*Knock Knock Knock*{/i}"
     "The person knocks at my door again, but this time calls out to me."
     anon "Hellllooooo? Anybody home?"
-    "That voice… was nothing like what I was expecting."
+    "That voice... was nothing like what I was expecting."
     "It sounded very femine, and almost welcoming."
     "{i}Come on, [player], what the hell is wrong with you?{/i}"
-    "{i}It’s just someone who came over to say hi…{/i}"
+    "{i}It’s just someone who came over to say hi...{/i}"
     "Despite still being slightly nervous, I head towards the door and start to open it."
     scene bg house with wipeleft_scene
     play music t2
@@ -441,7 +441,7 @@ label story:
     "Before I can respond to her greeting, she grabs my hand and shakes it enthusiastically."
     s rdown om "I’m Sayori! It’s so nice to meet you!"
     show sayori cm
-    mc "Uhh… nice to meet you too..."
+    mc "Uhh... nice to meet you too..."
     "I try to carefully pry my hand from her grip as she continues to shake my hand."
     show sayori mh
     s "And your name?"
@@ -464,7 +464,7 @@ label story:
     show sayori lup rup happ om oe
     s "They’re all in your locker at school. The Literature Club put it together for you!"
     show sayori cm
-    "{i}Literature Club… Rivera said something about that, too, right?{/i}"
+    "{i}Literature Club... Rivera said something about that, too, right?{/i}"
     "I start to ask about this Literature Club, but Sayori cuts me off again."
     show sayori ldown rdown anno mi e1a
     s "But you can’t go to school dressed like that!"
@@ -509,75 +509,76 @@ label story:
     show sayori rup om
     s "Our reality! I think it’s really nice, don’t you?"
     show sayori cm
-    mc "It is nice, I guess…"
+    mc "It is nice, I guess..."
     show sayori rdown sad cm oe
     "Sayori looks disappointed."
     show sayori om
     s "You don’t like it?"
     show sayori cm
-    mc "No, no it’s not that, it’s just…"
+    mc "No, no it’s not that, it’s just..."
     menu:
-            "I try to think of something to say to reassure her."
+        "I try to think of something to say to reassure her."
 
-            "It’s really quiet":
-                mc "It’s just a lot quieter than I would have thought."
-                mc "Usually there are lots of cars and other people out by now…"
-                show sayori neut me b2a
-                "Sayori takes a moment to think about what I said."
-                show sayori om b1a
-                s "Guess I never thought about it like that. There’s never a lot of noise around here."
-                show sayori rup happ om oe
-                s "But it gives me a great chance to think about all sorts of things!"
-                show sayori ce mc
-                s "Like poems, the Literature Club, and getting a new member! Hehe~!"
-            "There aren’t many people":
-                mc "I’m just a little thrown off by the lack of people."
-                mc "Are we… the only ones here?"
-                "Despite asking, I don’t really want to know the answer."
-                "How can a world have this many houses, but no people?"
-                show sayori sad ma oe
-                "Sayori smiles sadly."
-                show sayori mh
-                s "Well, there are the other club members, but…"
-                show sayori cm e1b
-                "I instantly regret asking the question."
-                "This doesn’t seem to be a topic Sayori’s comfortable discussing."
-                #show sayori 1f
-                "We both remain quiet for what feels like hours before Sayori breaks the silence, seemingly much cheerier."
-                show sayori rup happ om oe
-                s "That doesn’t matter, though!"
-                show sayori ce cm
-                s "No matter how few of us there are, we still have the Literature Club!"
-                s "And I know that no matter how empty our reality feels, the Literature Club will make sure you feel right at home!"
-            "The weather isn’t usually this nice":
-                show sayori neut cm oe
-                mc "It’s just so nice today, you know?"
-                mc "The grass is green, skies are blue, and there are hardly any clouds."
-                show sayori ma
-                "A wide grin comes across Sayori’s face."
-                show sayori mb
-                s "Yeah, it isn’t everyday that it’s this nice outside!"
-                show sayori rup lup happ mc ce
-                s "Days like these just make me want to go and give the sun a biiiiig hug!"
-                show sayori ma
-                "Due to the sun being too far away, Sayori decides to hug me instead."
-                "Does this girl know what boundaries are?"
-                "I try to get out of her embrace, but to no avail."
-                mc "Uhh, yeah… days like these are really… nice…"
-                show sayori oe
-                "Sayori finally lets go of me, still all smiles."
-                show sayori rup mb
-                s "Today would be a great day for all of us to read outside, don’t you think?"
-                show sayori ma
-                mc "Read outside… all of us? What are you talking about?"
-                show sayori happ om oe
-                s "The Literature Club, silly!"
-                show sayori ce mc
-                s "I can’t wait for you to meet the other members!"
+        "It’s really quiet":
+            mc "It’s just a lot quieter than I would have thought."
+            mc "Usually there are lots of cars and other people out by now..."
+            show sayori neut me b2a
+            "Sayori takes a moment to think about what I said."
+            show sayori om b1a
+            s "Guess I never thought about it like that. There’s never a lot of noise around here."
+            show sayori rup happ om oe
+            s "But it gives me a great chance to think about all sorts of things!"
+            show sayori ce mc
+            s "Like poems, the Literature Club, and getting a new member! Hehe~!"
+        "There aren’t many people":
+            mc "I’m just a little thrown off by the lack of people."
+            mc "Are we... the only ones here?"
+            "Despite asking, I don’t really want to know the answer."
+            "How can a world have this many houses, but no people?"
+            show sayori sad ma oe
+            "Sayori smiles sadly."
+            show sayori mh
+            s "Well, there are the other club members, but..."
+            show sayori cm e1b
+            "I instantly regret asking the question."
+            "This doesn’t seem to be a topic Sayori’s comfortable discussing."
+            #show sayori 1f
+            "We both remain quiet for what feels like hours before Sayori breaks the silence, seemingly much cheerier."
+            show sayori rup happ om oe
+            s "That doesn’t matter, though!"
+            show sayori ce cm
+            s "No matter how few of us there are, we still have the Literature Club!"
+            s "And I know that no matter how empty our reality feels, the Literature Club will make sure you feel right at home!"
+        "The weather isn’t usually this nice":
+            show sayori neut cm oe
+            mc "It’s just so nice today, you know?"
+            mc "The grass is green, skies are blue, and there are hardly any clouds."
+            show sayori ma
+            "A wide grin comes across Sayori’s face."
+            show sayori mb
+            s "Yeah, it isn’t everyday that it’s this nice outside!"
+            show sayori rup lup happ mc ce
+            s "Days like these just make me want to go and give the sun a biiiiig hug!"
+            show sayori ma
+            "Due to the sun being too far away, Sayori decides to hug me instead."
+            "Does this girl know what boundaries are?"
+            "I try to get out of her embrace, but to no avail."
+            mc "Uhh, yeah... days like these are really... nice..."
+            show sayori oe
+            "Sayori finally lets go of me, still all smiles."
+            show sayori rup mb
+            s "Today would be a great day for all of us to read outside, don’t you think?"
+            show sayori ma
+            mc "Read outside... all of us? What are you talking about?"
+            show sayori happ om oe
+            s "The Literature Club, silly!"
+            show sayori ce mc
+            s "I can’t wait for you to meet the other members!"
     show sayori happ cm ce
     mc "Hold on a second, you say that like I’m a part of this ‘Literature Club’."
     show sayori 3x
     s "Of course you’re a part of the club! We’re always open to getting new members!"
+    
     #INSERT CODE HERE
 
     scene bg class_day with wipeleft_scene
@@ -585,11 +586,11 @@ label story:
     "I enter the classroom and drop my backpack by a seat at the back of the room."
     "It’s now third period, and I had spent all of the last period scrolling through social media."
     "After scrolling on my phone for over two and a half hours, my head feels slightly dazed."
-    "I lean back in my chair and close my eyes…"
+    "I lean back in my chair and close my eyes..."
     scene bg black with fadeout
-    "…"
-    "…"
-    "…"
+    "..."
+    "..."
+    "..."
     anon "...Hello?"
     scene bg class_day with fadeout
     show monika forward rhip curi cm oe at t11
@@ -600,15 +601,15 @@ label story:
     mc "Oh! Hey, what’s up?"
     show monika happ cm oe
     "I offer her a smile, which she returns with a smile of her own."
-    "I feel my heart melt slightly…"
+    "I feel my heart melt slightly..."
     m om "My name is Monika Kimoto. I’m the president of the literature club! Nice to meet you!"
     show monika cm
     mc "I’m [player]. It’s nice to meet you, too."
     "Monika takes a seat at the desk next to me."
     m "So, how are you enjoying our reality so far? I know it’s really different from what you’re used to."
     "Something about that sentence throws me off."
-    "She knows it’s really different…?"
-    mc "Heh, well, I guess you’re right… but it’s not all bad."
+    "She knows it’s really different...?"
+    mc "Heh, well, I guess you’re right... but it’s not all bad."
     mc "If anything, it actually does kind of feel like my reality."
     "Monika slowly nods in response."
     m "Well, I’m glad to hear that. I know that some of the previous subjects didn’t feel the same way, so I just wanted to make sure you felt comfortable here!"
@@ -620,14 +621,14 @@ label story:
     "I feel like I want to talk to her, but she seems pretty focused on what the teacher is doing."
     "I do my best to act as Monika does, focusing on the class, taking notes, and doing whatever it is the teacher would ask."
     "It feels incredibly wrong, but I don’t want to make a bad impression."
-    "Considering how invested she is in the class, I’m surprised she isn’t in honors…"
+    "Considering how invested she is in the class, I’m surprised she isn’t in honors..."
     "After fifty minutes have passed, the bell rings, and we both grab our bags."
-    m "Hey, [player], I wanted to ask…"
+    m "Hey, [player], I wanted to ask..."
     m "...Sayori’s probably already told you about this, but the literature club begins everyday after school."
     m "Be sure to stop by sometime! We’re always excited to get a new member!"
     mc "Don’t worry, I promise I’ll be there."
     "What the hell am I saying!?"
-    "The last place I want to be is at this stupid club, but that smile…"
+    "The last place I want to be is at this stupid club, but that smile..."
     m "That’s great! I’ll see you later, [player]!"
     "She waves and leaves the classroom, as I stand there, still processing what just happened."
     "Getting out of this club is going to be harder than I thought."
@@ -860,7 +861,7 @@ label story:
     "I roll around, trying to get into a position that I can sleep in, but I can’t seem to find it."
     "I still have today’s assembly on my mind."
     "The presentation, Russell announcing he would submit a survey. All of it remains in my head, even hours after the event had happened."
-    "Originally I wanted nothing to do with the project, but after thinking more and more, especially after Russell…"
+    "Originally I wanted nothing to do with the project, but after thinking more and more, especially after Russell..."
     "Come on. I’m not about to let another student’s plans affect my own choices, am I?"
     "But the more I think about it, the more appealing being in a game with my favorite characters seems."
     "I have to say, I like the thought of getting the full gaming experience, meeting characters who I never thought I would get to interact with."
@@ -917,7 +918,7 @@ label story:
     r "We have already arranged a way for you to take your classes while you are in the other dimension."
     r "All we need you to do is show up tomorrow at 9:00 AM for the tour of the facility, and we will send you through The Gateway."
     "I’m at a loss for words."
-    "I wasn’t sure how I felt about following through with this project, yet a part of me felt… excited."
+    "I wasn’t sure how I felt about following through with this project, yet a part of me felt... excited."
     "Am I really doing this?"
     "I look Dr. Rivera in the eyes."
     mc "How do I get there?"
@@ -945,7 +946,7 @@ label story:
     j "Well, I will be sure to ask the video game gods that you don’t go into a shit video game."
     "He crosses his hands as though he were praying."
     show josh f
-    mc "Yeah, be sure to do that…"
+    mc "Yeah, be sure to do that..."
     show russel l
     rus "I wonder how many people signed up."
     rus "I’d say the odds were going against you."
@@ -1049,7 +1050,7 @@ label story:
     r "Well then, I think we have business! And speaking of business, I think we’ve stalled long enough."
     r "I believe it’s about time to send you through The Gateway."
     "I feel my blood pump a little faster."
-    "This is really about to happen. I’m about to go into a video game. I’ll get to…"
+    "This is really about to happen. I’m about to go into a video game. I’ll get to..."
     "Do what? I don’t even know what game I’m going into."
     "Now that I think about it, that seems like a pretty valuable piece of information I’m missing."
     mc "With all due respect, what game do you plan to send me to, exactly?"
@@ -1088,7 +1089,7 @@ label story:
     show lawson a
     l "I’m not forcing you to stay, but it would be appreciated if you did."
     "I think over everything Dr. Lawson is saying."
-    "I’m struggling to believe that me being the next subject is of any real importance, but…"
+    "I’m struggling to believe that me being the next subject is of any real importance, but..."
     "Dr. Lawson sounds like he put a lot of time into determining who should be the next subject."
     mc "Well, maybe I can put up with this for a month."
     "Dr. Lawson seems pleased with my change in thought."
@@ -1129,7 +1130,7 @@ label story:
     "Where the hell am I?"
     "Was I tricked? Have I been sent to some kind of purgatory? Hell?"
     "I look around some more, still unable to see anything."
-    "Eventually, I see… a tree?"
+    "Eventually, I see... a tree?"
     "It seems to rise as I continue to fall, and slowly but surely, more objects appear."
     "A clothes hanger, a desk, a book, and several other assorted objects enter my vision."
     "As more objects appear, I start to feel as though I’m falling faster."
@@ -1218,7 +1219,7 @@ label story:
     s "Just a little curious."
     "We continue our walk, and s speaks up again."
     show sayori 1c
-    s "So, knowing that this is a game about a literature club, it would make sense if you…"
+    s "So, knowing that this is a game about a literature club, it would make sense if you..."
     show sayori 1l
     s "Joined a club?"
     "I know exactly where this is going."
@@ -1250,7 +1251,7 @@ label story:
     "s seems puzzled at my question."
     s "Other students? The only students in this game are the other members of the literature club."
     show sayori 1k
-    s "There are a few teachers, but they aren’t… like us."
+    s "There are a few teachers, but they aren’t... like us."
     "No other students?"
     "Just the literature club?"
     "This is going to be a long 30 days."
@@ -1269,14 +1270,14 @@ label story:
     show sayori 4r
     s "If I didn’t wait for you, how else would you be able to find your way to the club?"
     show sayori 4q
-    mc "Sayori…"
+    mc "Sayori..."
     show sayori 4r
     s "Yeah?"
     mc "I never agreed to joining the club. I only said I would think about it."
     show sayori 1k
     s "Oh. Yeah."
     "She suddenly seems very disappointed."
-    "I can’t figure out why she would be so upset about a guy she just met a few hours ago not joining her club, but when I look at her…"
+    "I can’t figure out why she would be so upset about a guy she just met a few hours ago not joining her club, but when I look at her..."
     "Damnnit, why does s have to look so convincing when she’s upset?"
     "Her eyes hold disappointment, and I can’t bring myself to say no to her like this."
     mc "Ughhh. Fine. I’ll check out the club, but I’m not promising that I’ll be back for more meetings."
@@ -1326,7 +1327,7 @@ label story:
     show monika 1a
     mc "..."
     "All words escape me in this situation."
-    "This club - and thereby this game, considering that no one else is here…"
+    "This club - and thereby this game, considering that no one else is here..."
     "Is full of incredibly cute girls!"
     "Dr. Rivera never told me that!"
     "My eyes go to the short pink girl, whose name is apparently Natsuki."
@@ -1340,10 +1341,10 @@ label story:
     n "What are you looking at?"
     n "If you have something to say, say it."
     show natsuki 4g
-    mc "Sorry, sorry…"
+    mc "Sorry, sorry..."
     show yuri 2l at t33
     show natsuki 4g at t32
-    y "Natsuki…"
+    y "Natsuki..."
     show natsuki 5s
     n "Hmph."
     show sayori 2r at t31
@@ -1355,7 +1356,7 @@ label story:
     s "And this is Yuri, the smartest one in the club!"
     show sayori 1a
     show yuri 4a
-    y "S-s, we talked about this…"
+    y "S-s, we talked about this..."
     "Yuri seems to be a stark contrast to s and Natsuki, being more timid and mature."
     mc "Well, it’s nice to meet you two."
     show yuri at thide
@@ -1441,15 +1442,15 @@ label story:
     mc "This is really good."
     mc "Thank you, Natsuki."
     show natsuki 5h
-    n "W-Why are you thanking me? It’s not like I…!"
+    n "W-Why are you thanking me? It’s not like I...!"
     show natsuki 5q
-    n "…Made them for you or anything."
+    n "...Made them for you or anything."
     mc "Well, you made them for the club, and-"
     #fix this sprite
     show natsuki 12c
     n "Well, yeah!"
-    n "But not for, y-you know, you! Dummy…"
-    mc "Okay…"
+    n "But not for, y-you know, you! Dummy..."
+    mc "Okay..."
     show natsuki at thide
     hide natsuki
     "I give up on Natsuki’s weird logic and return to eating my cupcake."
@@ -1472,7 +1473,7 @@ label story:
     y "I’m glad to hear that."
     show yuri 2i
     "Yuri smiles to herself."
-    "She has a look about her that makes it seem like something like this has happened before…"
+    "She has a look about her that makes it seem like something like this has happened before..."
     show monika 2a at t32
     "Monika turns to me and smiles."
     show monika 4b
@@ -1480,7 +1481,7 @@ label story:
     show monika 4b
     mc "Yeah. Why do you ask? Aren’t the only people who come through subjects?"
     show monika 4n
-    m "Well, yes. There was a bit of an incident a few weeks ago, however…"
+    m "Well, yes. There was a bit of an incident a few weeks ago, however..."
     show sayori 5d at t41
     show yuri 4b at t42
     show monika 4n at t43
@@ -1517,12 +1518,12 @@ label story:
     show yuri 1b at t32
     y "So, [player], what kind of books do you enjoy reading?"
     show yuri 1a
-    mc "Well…"
+    mc "Well..."
     "All I ever read is what the school gives me for assignments."
     "I haven’t read a book that I truly enjoyed on my own time in months."
-    mc "…not much… "
+    mc "...not much... "
     show yuri 3j
-    y "N-Not much of a reader, I guess…"
+    y "N-Not much of a reader, I guess..."
     show yuri 3i
     mc "Well, that can change..."
     "What am I saying?"
@@ -1546,12 +1547,12 @@ label story:
     show yuri 3q
     y "Anyway, I have been reading a lot of horror."
     show yuri 3a
-    mc "I’ve read a horror book once…"
+    mc "I’ve read a horror book once..."
     "I try to grasp at anything I can to relate on some kind of minimal level."
     "At this point, Yuri’s practically trying to have a conversation with a rock."
     mc "But I never would have expected someone as gentle as you to enjoy horror."
     show yuri 2j
-    y "I-I guess you could say that…"
+    y "I-I guess you could say that..."
     y "But if a story makes you think, or takes me to another world, I can’t bring myself to put it down."
     show yuri 2i
     show natsuki 5q at t31
@@ -1591,7 +1592,7 @@ label story:
     show natsuki 4r at t11
     mc "I think it’s pretty cool that you write your own poems, Natsuki."
     show natsuki 1q
-    n "Eh? Thanks…"
+    n "Eh? Thanks..."
     show natsuki 1s
     "Natsuki seems to calm down a little after my comment."
     show monika 4b at t22 zorder 2
@@ -1614,7 +1615,7 @@ label story:
     "Am I really willing to write poetry just to see these girls everyday?"
     "I look at the girls again, and they are all smiling at me, expecting me to say something."
     "All except Natsuki, who still seems to be unable to look in my general direction."
-    mc "Umm…"
+    mc "Umm..."
     mc "Yeah!"
     mc "I can do that."
     mc "When are we writing the poems?"
@@ -1674,7 +1675,7 @@ label story:
     show monika 1a at t44
     "and, of course, Monika."
     "Am I really going to be able to spend extra time after school in a literature club?"
-    "I could have the opportunity to grow closer to one of these girls…"
+    "I could have the opportunity to grow closer to one of these girls..."
     "But they aren’t even from my world!"
     "Should I really be pushing for any kind of friendship with them?"
     show sayori at thide
@@ -1729,10 +1730,10 @@ label story:
     j "{i}Alright{/i}"
     j "{i}Let me know how things go{/i}"
     "I set my phone down on the table."
-    mc "Poems… "
+    mc "Poems... "
     "How the hell am I gonna write a poem for tomorrow?"
     "I decide to get my homework done quickly, and hopefully, with a little effort, I’ll be finished by nine."
-    "I just need to figure out what to write about… "
+    "I just need to figure out what to write about... "
     scene bg club_day with wipeleft_scene
     play music t3
     show monika 4b at t11
@@ -1749,7 +1750,7 @@ label story:
     y "It’s good to see you again, [player]."
     y "I hope this isn’t too overwhelming of a commitment for you."
     show yuri 2l
-    y "Making you dive headfirst into literature when you’re not accustomed to it…"
+    y "Making you dive headfirst into literature when you’re not accustomed to it..."
     show natsuki 4w  at t31
     n "Why do you always cut so much slack for the subjects, Yuri?"
     show yuri 2q
@@ -1789,7 +1790,7 @@ label story:
     mc "For me?"
     y "Uuuhhhh."
     show yuri 4c
-    y "Not r-really… sort of..?"
+    y "Not r-really... sort of..?"
     "Yuri seems really flustered by the moment s has shoved us into."
     "s still seems oblivious to what is unfolding in front of her."
     "I decide I should take liberty and rescue the situation."
@@ -1802,11 +1803,11 @@ label story:
     mc "So any nice gesture is a pleasant surprise."
     mc "It’ll make me happy no matter what."
     show yuri 3q
-    y "W-Well, if that’s the case…"
+    y "W-Well, if that’s the case..."
     show yuri 3s
     mc "Don’t worry. I’m not going to make a big deal out of this if that isn’t what you want to happen."
     show yuri 1k
-    y "Alright…"
+    y "Alright..."
     show yuri 1j
     y "Well, here."
     show yuri 1i
@@ -1815,10 +1816,10 @@ label story:
     y "I know you said you didn’t really read, and I didn’t want you to feel left out."
     y "So I picked a book that I read and enjoyed a few months back, hoping that you might take interest."
     y "It’s a short read, so it should be able to keep your attention, even if you don’t usually read."
-    y "And we might be able to…"
+    y "And we might be able to..."
     show yuri 4b
-    y "Discuss it… if you wanted…"
-    "How… This is…"
+    y "Discuss it... if you wanted..."
+    "How... This is..."
     "How is this girl accidentally being so cute?"
     "Even though I don’t usually read, she picked a book that she thought I might enjoy."
     show yuri 4a
@@ -1851,12 +1852,12 @@ label story:
     show natsuki 3x at t11
     mc "You looking for something?"
     show natsuki 3w
-    n "Freaking Monika…"
+    n "Freaking Monika..."
     n "After all of this time, you would think she would know to put my stuff back in the right spot!"
     n "Why keep an organized collection if someone’s just going to mess it up?"
     show natsuki 3x
     "Natsuki moves some stacked boxes across one of the shelves."
-    mc "Manga…"
+    mc "Manga..."
     show natsuki 5f
     n "If you’re going to judge, you can do it through the glass of that door!"
     show natsuki 5g
@@ -1878,7 +1879,7 @@ label story:
     n "Seeing a box set with one book missing is probably the most annoying thing in the world."
     show natsuki 2a
     "I get a closer look at the box set she’s admiring."
-    mc "Parfait Girls…?"
+    mc "Parfait Girls...?"
     "I have never heard of that title in my life, although that’s to be expected considering I don’t read manga."
     "It’s likely that this series is exclusive to this world."
     show natsuki 2c
@@ -1892,7 +1893,7 @@ label story:
     n "I’m about to show you why!"
     show natsuki 4a
     "She shoves the book into my hands."
-    mc "Ah…"
+    mc "Ah..."
     "I stare at the cover."
     "It features four girls in colorful attire striking animated feminine poses."
     show natsuki 1e
@@ -1905,14 +1906,14 @@ label story:
     "She pats on the ground next to her, signaling me to sit there."
     scene bg club_day with wipeleft_scene
     show natsuki 3j at t11
-    mc "Wouldn’t chairs be a little more comfortable… ?"
+    mc "Wouldn’t chairs be a little more comfortable... ?"
     "I take my seat."
     show natsuki 3k
     n "Chairs wouldn’t work."
     n "We can’t read at the same time like that."
     show natsuki 3j
     mc "How do you figure?"
-    mc "Ah… Well, I guess it is a little easier to be closer together like this."
+    mc "Ah... Well, I guess it is a little easier to be closer together like this."
     show natsuki 1o
     n "--!"
     show natsuki 5r
@@ -1920,7 +1921,7 @@ label story:
     n "You don’t need to make it all weird!"
     show natsuki 5s
     "Natsuki crosses her arms and scootches about an inch away from me."
-    mc "Sorry…"
+    mc "Sorry..."
     "It isn’t like I imagined sitting this close either."
     "Hell, I thought Natsuki would be the last one to suggest an idea like this."
     "However, I can’t say this is particularly a bad thing."
@@ -1928,7 +1929,7 @@ label story:
     "Only a few seconds pass before Natsuki reclaims her original spot, hoping I don’t notice."
     "I feel her peering over my shoulder, clearly more enthusiastic about reading the manga than I am."
     show natsuki 1c
-    n "Man, how many times have I read this series…?"
+    n "Man, how many times have I read this series...?"
     show natsuki 1a
     mc "Hmm?"
     mc "You’ve gone through this series multiple times?"
@@ -1939,27 +1940,27 @@ label story:
     show natsuki 4h
     n "Hey, are you paying attention?"
     show natsuki 4i
-    mc "Uh… "
+    mc "Uh... "
     "I am, but nothing has really happened yet, so I’m able to talk as I read."
     "It seems to be about a group of friends in high school."
-    mc "So… What should I expect from this?"
+    mc "So... What should I expect from this?"
     mc "Is there gonna be a plot?"
     show natsuki 4w
     n "Well, obviously!"
     n "You think I would enjoy something that doesn’t have a plot?"
     show natsuki 4q
-    n "Well… "
+    n "Well... "
     n "I guess I can see what you’re saying."
     n "The beginning is really just about simple things."
     show natsuki 3k
-    n "Like in one chapter where they obsess over a guy at an ice cream shop…"
+    n "Like in one chapter where they obsess over a guy at an ice cream shop..."
     show natsuki 3l
     n "But that just helps you to get to know the characters!"
     n "And besides, it’s still entertaining."
     show natsuki 3k
-    n "But later on, there is all kinds of drama… "
+    n "But later on, there is all kinds of drama... "
     show natsuki 3l
-    n "Like when they get into all of their backstories, or when the romance starts to happen…"
+    n "Like when they get into all of their backstories, or when the romance starts to happen..."
     n "That’s a big part of what makes it so good."
     n "It has a lot of touching parts."
     show natsuki 3j
@@ -1975,10 +1976,10 @@ label story:
     show natsuki 1i
     mc "Ugh!"
     "Natsuki elbows me in the side."
-    mc "I just meant that I haven’t seen you at your full power…"
+    mc "I just meant that I haven’t seen you at your full power..."
     show natsuki 5h
     n "Hmph. Good save."
-    mc "Huh… this chapter seems to be about baking."
+    mc "Huh... this chapter seems to be about baking."
     mc "There wouldn’t happen to be a lot of baking in this manga, would there?"
     show natsuki 5e
     n "Well-"
@@ -1987,7 +1988,7 @@ label story:
     n "...Yeah."
     n "Why does that matter?"
     show natsuki 3n
-    mc "It doesn’t. I was just curious…"
+    mc "It doesn’t. I was just curious..."
     mc "Because it seems to me that you enjoy baking too, right?"
     show natsuki 1o
     n "That’s-"
@@ -1998,7 +1999,7 @@ label story:
     show natsuki 2y
     n "I feel bad for anyone that impressionable!"
     n "Ahaha!"
-    "Definitely not a coincidence…"
+    "Definitely not a coincidence..."
     "I guess that explains Natsuki’s interest in baking."
     "She is really good at it though, so who am I to judge?"
     scene n_cg1_bg
@@ -2006,38 +2007,38 @@ label story:
     with dissolve_cg
     "We continue to read for a few minutes."
     "We’ve gone through a couple of chapters at this point."
-    mc "…"
+    mc "..."
     mc "Are you sure this isn’t boring for you?"
     n "It’s not!"
     mc "Even though you’re just watching me read?"
-    n "Well…!"
-    n "I’m… fine with that."
-    mc "Whatever you say…"
+    n "Well...!"
+    n "I’m... fine with that."
+    mc "Whatever you say..."
     mc "I guess it can be fun to share something you enjoy with someone else."
     mc "I’m always excited when I convince my friends to pick up a video game I enjoy."
     mc "You know what I mean?"
-    n "…?"
+    n "...?"
     mc "You don’t?"
     show n_cg1_exp2 at cgfade
-    n "Um… "
-    n "That’s  not… "
+    n "Um... "
+    n "That’s  not... "
     n "Well, I wouldn’t really know."
     mc "What do you mean?"
     mc "Haven’t you shown your manga to the other club members?"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
-    n "Like I could ever get them to read this…"
+    n "Like I could ever get them to read this..."
     n "They all think manga is for kids."
-    n "The other subjects especially…"
-    n "I can’t bring it up without them saying something like…"
+    n "The other subjects especially..."
+    n "I can’t bring it up without them saying something like..."
     n "\‘You still read manga? Aren’t you ever gonna grow out of it?\'"
-    n "I’ve always hated those subjects…"
+    n "I’ve always hated those subjects..."
     "It sounds like these girls have had a rough time with some of the previous subjects, especially Natsuki."
     mc "I know the kind of people you’re talking about."
     mc "There will always be a select few assholes who can’t let people enjoy their own thing."
     hide n_cg1_exp3
     n "Yeah, I know what you mean."
-    n "For a while, I felt as though I couldn’t even keep it in my own room…"
+    n "For a while, I felt as though I couldn’t even keep it in my own room..."
     n "I couldn’t even begin to imagine what my father would have done if he found this."
     n "I only just brought it home some time ago after-"
     show n_cg1_exp2 at cgfade
@@ -2060,7 +2061,7 @@ label story:
     n "You can’t help but feel bad for her since she’s so unlucky."
     n "But it gets especially bad when-"
     hide n_cg1_exp1
-    n "Uu…"
+    n "Uu..."
     n "I shouldn’t be talking about that yet."
     n "We’re almost at that part though, so just finish the chapter!"
     scene bg club_day with dissolve
@@ -2084,7 +2085,7 @@ label story:
     m "But we won’t have time to share if we start any later."
     m "Although I must say, you two do look pretty cozy. Ahaha!"
     show natsuki 2o
-    n "Eh…?"
+    n "Eh...?"
     show natsuki 1p
     n "A-Ah!"
     "Natsuki suddenly realizes how much closer she had gotten to me since we first started reading."
@@ -2092,21 +2093,21 @@ label story:
     show monika at thide
     hide monika
     show natsuki 1u at t11
-    mc "Well…"
+    mc "Well..."
     mc "Guess I’ll stop here for now."
     "I close the book and hand it over to Natsuki"
     show natsuki 1m
-    n "You’re just gonna give it back…?"
+    n "You’re just gonna give it back...?"
     n "Don’t you want to know what happens?"
     show natsuki 1u
-    mc "Of course, but… "
+    mc "Of course, but... "
     mc "Monika just said-"
     show natsuki 2q
     n "Don’t be dumb."
     n "Just take it home with you."
     show natsuki 2s
     mc "Huh?"
-    mc "Is that… alright with you?"
+    mc "Is that... alright with you?"
     show natsuki 4h
     n "Well, of course."
     n "It would take all month to finish if you didn’t take it home."
@@ -2114,7 +2115,7 @@ label story:
     show natsuki 4e
     n "And if it has even a scratch on it, I will kill you."
     show natsuki 4g
-    mc "By tomorrow…?"
+    mc "By tomorrow...?"
     show natsuki at thide
     hide natsuki
     "I’m only part way through the volume."
@@ -2129,7 +2130,7 @@ label story:
     m "I’m excited to read your poem, [player]!"
     show monika 5a
     m "After all, s tells me you were up pretty late working on it."
-    mc "Ah… yeah."
+    mc "Ah... yeah."
     "I suddenly feel a little less relaxed."
     "I can’t believe I agreed to do something so embarrassing."
     show monika 2k
@@ -2150,13 +2151,13 @@ label story:
     scene bg club_day with wipeleft_scene
     play music t5
     show sayori 1a at t11
-    s "…"
+    s "..."
     show sayori 2r
     s "This is really good, [player]!"
     show sayori 2x
     s "Is this really your first time writing poetry?"
     show sayori 2a
-    mc "Yeah…"
+    mc "Yeah..."
     mc "It really isn’t as good as you're making it out to be."
     mc "Also, do I really seem like the kind of guy to spill his feelings onto a sheet of paper in his spare time?"
     show sayori 2l
@@ -2170,13 +2171,13 @@ label story:
     s "It makes me happy to see you actually care about this."
     mc "Why wouldn’t I?"
     show sayori 2h
-    s "Well, some of the other guys before you didn’t care about the club as much as you…"
+    s "Well, some of the other guys before you didn’t care about the club as much as you..."
     show sayori 2g
     "s looks a little upset from remembering the other subjects."
     "How many of them actually tried to write for the club?"
     mc "Am I the first one to try and write a poem for the club, s?"
     show sayori 2l
-    s "Well, there were others…"
+    s "Well, there were others..."
     show sayori 4r
     s "But they weren’t like you~!"
     show sayori 4q
@@ -2186,12 +2187,12 @@ label story:
     s "Why don’t you read my poem now?"
     mc "Alright, sure."
     show sayori 2l
-    s "Don’t worry, I’m not too good at this… "
+    s "Don’t worry, I’m not too good at this... "
     show sayori 1y
     mc "Well, we’ll have to see about that."
     call showpoem (poem_s1) from _call_showpoem_22
-    mc "Sayori…"
-    mc "This is just a guess, but…"
+    mc "Sayori..."
+    mc "This is just a guess, but..."
     mc "Did you wait until this morning to write this?"
     show sayori 4h
     s "N-no!"
@@ -2199,19 +2200,19 @@ label story:
     s "Only kind of!"
     mc "You can’t answer ‘only kind of’ to a yes or no question, s."
     show sayori 5b
-    s "I forgot to do it last night…"
+    s "I forgot to do it last night..."
     mc "At least you got sleep."
     mc "Although this does make me feel a little better about myself."
     show sayori 1h
     s "Don’t be mean!"
     s "I still did my best!"
     show sayori 1f
-    mc "I know…"
+    mc "I know..."
     mc "I didn’t mean that it was a bad poem."
-    mc "I guess the best way to put it is…"
+    mc "I guess the best way to put it is..."
     mc "It sounds just like s."
     show sayori 3d
-    s "Really… ?"
+    s "Really... ?"
     mc "Yeah."
     mc "Especially that last line."
     show sayori 4r
@@ -2220,7 +2221,7 @@ label story:
     show sayori 5c
     s "It’s bad to skip breakfast!"
     show sayori 5d
-    s "I get all cranky… "
+    s "I get all cranky... "
     mc "Well, I guess there is no reason to argue."
     mc "Thank you for sharing your poem."
     show sayori 4q
@@ -2229,7 +2230,7 @@ label story:
     s "This is always so much fun!"
     s "Monika’s the best!"
     show sayori 4q
-    mc "Ah… yeah."
+    mc "Ah... yeah."
     show sayori 3x
     s "But I promise I won’t forget next time."
     show sayori 4r
@@ -2238,29 +2239,29 @@ label story:
     mc "I’ll be looking forward to it."
     scene bg club_day with wipeleft_scene
     show yuri 1g at t11
-    y "…"
-    y "Mm…"
+    y "..."
+    y "Mm..."
     "Yuri stares at the poem."
     "A minute passes, more than enough time to read the poem."
     show yuri 1e
-    mc "Uh…"
+    mc "Uh..."
     show yuri 3n
     y "Oh!"
-    y "S-Sorry…!"
-    y "I f-forgot to start speaking…"
+    y "S-Sorry...!"
+    y "I f-forgot to start speaking..."
     show yuri 3o
-    y "U-Umm…"
+    y "U-Umm..."
     mc "It’s fine, no need to force yourself."
     show yuri 2v
     y "I’m not."
     y "I just need to put my thoughts into words."
     show yuri 1w
-    y "Hold on…"
+    y "Hold on..."
     show yuri 2t
     y "...Okay."
     show yuri 2f
     y "This is your first time writing, correct?"
-    mc "First time writing poetry, yeah…"
+    mc "First time writing poetry, yeah..."
     mc "Why do you ask?"
     show yuri 1f
     y "I’m just making sure."
@@ -2269,16 +2270,16 @@ label story:
     show yuri 2p
     y "No!"
     show yuri 2o
-    y "...Did I just raise my voice…?"
+    y "...Did I just raise my voice...?"
     show yuri 4c
-    y "Uu, I’m so sorry…"
+    y "Uu, I’m so sorry..."
     "Yuri buries her face in her hands."
     "It’s been several minutes and we still haven’t gotten anywhere."
-    "I guess it takes Yuri a while to get used to new people…"
+    "I guess it takes Yuri a while to get used to new people..."
     mc "You’re fine. I didn't really notice."
     mc "What were you saying?"
     show yuri 2u
-    y "Right… Um…"
+    y "Right... Um..."
     show yuri 2f
     y "Well, there are certain writing habits that are generally common among new writers."
     show yuri 3l
@@ -2301,10 +2302,10 @@ label story:
     y "Natsuki can be a bit biased, however."
     mc "How so?"
     show yuri 2j
-    y "U-um…"
-    y "Well…"
+    y "U-um..."
+    y "Well..."
     y "Nevermind."
-    y "I shouldn’t talk about people like that…"
+    y "I shouldn’t talk about people like that..."
     y "Sorry."
     show yuri 2i
     mc "It’s fine."
@@ -2313,37 +2314,37 @@ label story:
     mc "May I read your poem now?"
     show yuri 1d
     y "Please do!"
-    y "I would love to share my thought process behind it…"
+    y "I would love to share my thought process behind it..."
     show yuri 1c
     "Yuri smiles dreamily, as though this kind of moment doesn’t occur often."
-    "Which is a little funny…"
+    "Which is a little funny..."
     "...After all, isn’t this supposed to be a literature club? That gets a new member every month?"
     call showpoem (poem_y1) from _call_showpoem_23
     show yuri 3t
-    y "…"
-    y "I… I’m sorry I have such terrible handwriting!"
+    y "..."
+    y "I... I’m sorry I have such terrible handwriting!"
     mc "What?"
     mc "I wasn’t thinking that at all."
     show yuri 2v
-    y "But it took you a while to read…"
-    mc "Ah…"
+    y "But it took you a while to read..."
+    mc "Ah..."
     mc "I just don’t read script all too often."
     mc "I actually think your handwriting is pretty."
     show yuri 2t
-    y "Eh…?"
+    y "Eh...?"
     show yuri 2u
-    y "That’s a… relief…"
+    y "That’s a... relief..."
     mc "I also liked your poem."
     mc "It was short, yet very descriptive."
     show yuri 1t
     y "It wasn’t too short?"
     show yuri 2v
-    y "My poetry is almost always longer…"
+    y "My poetry is almost always longer..."
     mc "Not at all."
     show yuri 1u
     y "Well, I’m very glad you liked it."
     show yuri 3l
-    y "I’ll be honest…"
+    y "I’ll be honest..."
     y "Since this is your first time sharing I wanted to present something a little more mild."
     show yuri 1b
     y "Easy to digest, I suppose."
@@ -2355,7 +2356,7 @@ label story:
     y "The story isn’t actually about a ghost, [player]."
     show yuri 2a
     mc "Really?"
-    mc "Crap, I must’ve totally missed the point…"
+    mc "Crap, I must’ve totally missed the point..."
     show yuri 1u
     y "Well, this is your first time sharing poetry."
     show yuri 3l
@@ -2365,15 +2366,15 @@ label story:
     y "In this case, perhaps the subject of the poem is only being displayed or symbolized as a ghost."
     show yuri 2l
     y "Lingering in her last place of comfort, unable to let go of the past."
-    y "And soon, it’ll be left with nothing…"
+    y "And soon, it’ll be left with nothing..."
     show yuri 2m
     mc "...That’s a lot more solemn when you put it that way."
-    mc "Hadn’t even thought of it like that…"
+    mc "Hadn’t even thought of it like that..."
     mc "That’s pretty impressive."
     show yuri 1j
     y "It’s nothing, really."
     show yuri 2u
-    y "Although… it makes me happy that you think that."
+    y "Although... it makes me happy that you think that."
     show yuri 1f
     y "It won’t be long until you start to pick up on these things, too."
     show yuri 1a
@@ -2386,22 +2387,22 @@ label story:
     m "Hi, [player]!"
     m "Having a good time so far?"
     show monika 1a
-    mc "Ah… yeah."
+    mc "Ah... yeah."
     show monika 1k
     m "Good! Glad to hear it!"
     show monika 4n
-    m "By the way, because you’re new to the club and are coming from a different environment…"
-    m "If you ever have any suggestions for the club, such as activities, or things we can improve on…"
+    m "By the way, because you’re new to the club and are coming from a different environment..."
+    m "If you ever have any suggestions for the club, such as activities, or things we can improve on..."
     show monika 4k
     m "I’m always open for discussion!"
     show monika 4b
     m "Don’t be afraid to bring things up, okay?"
     show monika 4a
-    mc "Alright… I’ll keep that in mind."
+    mc "Alright... I’ll keep that in mind."
     "I’m still afraid to bring things up."
     "The last thing I want to do is accidentally cause a problem in the place where I’m forced to stay for another month."
     show monika 1b
-    m "Anyway…"
+    m "Anyway..."
     m "Want to share your poem with me?"
     show monika 1a
     mc "It’s kind of embarrassing, but I guess I have to."
@@ -2424,7 +2425,7 @@ label story:
     show monika 3k
     m "Ahahaha!"
     show monika 3j
-    mc "Ah…"
+    mc "Ah..."
     show monika 1b
     m "Don’t worry!"
     m "It really reminds me of something Natsuki would write."
@@ -2440,20 +2441,20 @@ label story:
     show monika 2b
     m "Have you, by any chance, read anything by Shel Silverstein?"
     show monika 1a
-    mc "Well, maybe a long time ago…"
+    mc "Well, maybe a long time ago..."
     show monika 3d
     m "He’s famous for telling all kinds of stories in just a few simple words."
-    m "His poetry is funny, endearing, or even sad…"
+    m "His poetry is funny, endearing, or even sad..."
     m "And sometimes they are no more than a few lines long."
-    m "They may even feel like they are written for kids, but when you really look at them…"
+    m "They may even feel like they are written for kids, but when you really look at them..."
     m "They can express views of the world that can apply to anyone."
     show monika 3a
-    mc "I see…"
+    mc "I see..."
     mc "So you’re saying Natsuki is kind of like that?"
     show monika 3b
     m "In a way."
     show monika 4b
-    m "Maybe she isn’t an expert…"
+    m "Maybe she isn’t an expert..."
     m "But you don’t usually find much filler in her poems."
     m "They can be easy to write, but getting the meaning through is much harder."
     show monika 4k
@@ -2467,7 +2468,7 @@ label story:
     m "I’d love to see you try new things!"
     m "That’s the best way to find your style."
     show monika 2n
-    m "Everyone will usually be more biased towards their style of writing…"
+    m "Everyone will usually be more biased towards their style of writing..."
     show monika 1b
     m "But I’ll always help you find what suits you most!"
     m "So don’t force yourself to write the way everyone tells you to."
@@ -2478,7 +2479,7 @@ label story:
     m "Ahahaha!"
     "She gives me a funny look after her last statement."
     "Is she implying something?"
-    mc "Haha, yeah…"
+    mc "Haha, yeah..."
     show monika 1b
     m "Anyway, would you like to read my poem now?"
     show monika 1n
@@ -2489,14 +2490,14 @@ label story:
     m "Well, I have to sound confident."
     show monika 2e
     m "Doesn’t mean I always am, you know?"
-    mc "Yeah… I can see what you mean."
+    mc "Yeah... I can see what you mean."
     mc "Well, let’s read it then."
     call showpoem (poem_m1) from _call_showpoem_24
     show monika 1b
-    m "So… What do you think?"
+    m "So... What do you think?"
     show monika 1a
-    mc "Well, it’s very… freeform, if that’s what you call it."
-    mc "Sorry, I’m really not the best guy to go to for good feedback…"
+    mc "Well, it’s very... freeform, if that’s what you call it."
+    mc "Sorry, I’m really not the best guy to go to for good feedback..."
     show monika 2k
     m "Ahaha. It’s okay."
     m "That style has gotten pretty popular nowadays."
@@ -2507,13 +2508,13 @@ label story:
     show monika 4a
     mc "What was the inspiration behind this one?"
     show monika 3n
-    m "Ah…"
-    m "Well, I’m not sure how to put it…"
+    m "Ah..."
+    m "Well, I’m not sure how to put it..."
     m "Several months back I had some kind of epiphany, I guess you could say."
     m "This is just me putting my thoughts at the time onto paper."
     show monika 3m
-    mc "Huh. Interesting…"
-    "Several months ago…"
+    mc "Huh. Interesting..."
+    "Several months ago..."
     "Wasn’t that when the Wickford Project began?"
     "Is it possible that Monika’s ‘epiphany’ has something to do with that?"
     show monika 4b
@@ -2530,11 +2531,11 @@ label story:
     m "Thanks for listening~"
     scene bg club_day with wipeleft_scene
     show natsuki 1s at t11
-    n "…"
-    mc "…?"
+    n "..."
+    mc "...?"
     show natsuki 1t
     n "Okay, we’ll start with the things I don’t like!"
-    n "First of all, um…"
+    n "First of all, um..."
     show natsuki 1q
     "Natsuki re-reads my poem."
     show natsuki 4k
@@ -2546,14 +2547,14 @@ label story:
     n "Ha! Do you really not have anything else to do after school?"
     mc "Not at two in the morning I don’t."
     show natsuki 5w
-    n "I…"
+    n "I..."
     show natsuki 1m
     n "What?"
     n "You stayed up writing... that late?"
     show natsuki 1n
     mc "Yeah, I wanted to make sure it was good."
     show natsuki 3m
-    n "Well… you didn’t need to try that hard."
+    n "Well... you didn’t need to try that hard."
     show natsuki 5q
     n "It’s not like my poems are anything crazy."
     show natsuki 5n
@@ -2567,28 +2568,28 @@ label story:
     show natsuki 1e
     n "I hope you’re happy!"
     show natsuki 1g
-    mc "…"
+    mc "..."
     mc "...So, in other words, you’re saying you liked it?"
     show natsuki 1x
     n "Urk-"
     "Natsuki’s retort gets caught in her throat."
-    n "Uuuuuuuuuu… You’re so…!"
-    n "You just… you… you don’t understand anything, do you?"
+    n "Uuuuuuuuuu... You’re so...!"
+    n "You just... you... you don’t understand anything, do you?"
     show natsuki 5q
     n "I already told you that, you don’t have to go announcing it to the world like you're all self-important!"
     show natsuki 5s
-    mc "I don’t think you actually said that…"
+    mc "I don’t think you actually said that..."
     "I say that mostly to myself."
     "Natsuki must really hate me or something."
-    "I’m still struggling to tell if her liking my poem is a win or a loss…"
+    "I’m still struggling to tell if her liking my poem is a win or a loss..."
     mc "Well you’re gonna show me your poem, right?"
     mc "Show me what real literature looks like?" 
     show natsuki 5m
-    n "Um… Y-yeah, I guess."
+    n "Um... Y-yeah, I guess."
     n "Only because Monika will make me if I don’t."
     call showpoem (poem_n1) from _call_showpoem_25
     show natsuki 3q
-    n "Yeah…"
+    n "Yeah..."
     n "I know you don’t like it."
     show natsuki 3s
     mc "No, I think this is pretty good, actually."
@@ -2611,7 +2612,7 @@ label story:
     show natsuki 1c
     n "Take this poem, for example."
     n "It’s easy to read, and it hits you hard."
-    n "It can be disheartening to see everyone around you do great things…"
+    n "It can be disheartening to see everyone around you do great things..."
     n "So I chose to write about it."
     show natsuki 1g
     mc "Yeah, I see what you’re saying."
@@ -2620,13 +2621,13 @@ label story:
     n "I set it up for a rhyme at the end and let it fall flat on purpose."
     n "It helps to bring out the feeling in the last line."
     show natsuki 2a
-    mc "Wow…"
+    mc "Wow..."
     mc "I guess more thought went into this than I realized."
     show natsuki 4y
     n "That’s what it means to be a pro!"
     n "I’m glad you learned something."
     n "Didn’t expect that from the youngest one here, did you?"
-    mc "Yeah… guess not."
+    mc "Yeah... guess not."
     "I decide to humor her with that last comment."
     "I don’t care how old everyone here is, but if Natsuki is feeling proud then I won’t take it away from her."
     scene bg club_day with wipeleft_scene
@@ -2652,7 +2653,7 @@ label story:
     show natsuki 2g
     show yuri 2j
     y "Ah- thanks."
-    y "Yours is… cute."
+    y "Yours is... cute."
     show natsuki 2e
     n "Cute?"
     n "How is this cute?"
@@ -2663,9 +2664,9 @@ label story:
     n "What about that is cute?"
     show natsuki 4e
     show yuri 3f
-    y "I-I’m sorry… I just-"
+    y "I-I’m sorry... I just-"
     show yuri 3h
-    y "I meant it as a compliment…"
+    y "I meant it as a compliment..."
     show yuri 3g
     show natsuki 4w
     n "Well, thanks, but it really didn’t come out nice at all!"
@@ -2689,7 +2690,7 @@ label story:
     show yuri 1h
     y "Which I can’t say I have."
     show natsuki 4o
-    n "Nn…!"
+    n "Nn...!"
     show yuri 1l
     y "And [player] liked my poem too, you know."
     y "He even told me he was impressed by it."
@@ -2698,10 +2699,10 @@ label story:
     n "Oh!"
     n "I didn’t realize you were so keen on impressing our newest member, Yuri."
     show yuri 1n
-    y "I- Uh…"
-    y "You know that’s not what I…!"
+    y "I- Uh..."
+    y "You know that’s not what I...!"
     show yuri 2o
-    y "Uu…"
+    y "Uu..."
     y "Well."
     show yuri 2r
     y "I think you're just jealous that [player] appreciates my advice more than yours!"
@@ -2710,16 +2711,16 @@ label story:
     n "Are you that full of yourself?"
     show yuri 3h
     y "Of course not."
-    y "If I were full of myself…"
+    y "If I were full of myself..."
     show yuri 1r
     y "I would go out of my way to make everything overly cutesy!"
     show natsuki 1o
-    n "Uuuuuuuu…!"
+    n "Uuuuuuuu...!"
     show natsuki 1o at t33
     show yuri 1r at t32
     show sayori 3l at l31
-    s "Uh…"
-    s "Is everything okay…?"
+    s "Uh..."
+    s "Is everything okay...?"
     show sayori at lhide
     hide sayori
     n "If I were full of myself, I would make sure that nobody can even understand the point of my writing!"
@@ -2732,20 +2733,20 @@ label story:
     show monika at lhide
     hide monika
     show sayori 4p at l31
-    s "I-I don’t like fighting, guys…!"
+    s "I-I don’t like fighting, guys...!"
     show sayori at lhide
     hide sayori
     show natsuki 1g at t22
     show yuri 3p at t21
     "Both girls turn to me, as though they just noticed I was standing there."
     show yuri 2n
-    y "[player]…"
+    y "[player]..."
     y "She- She’s just trying to make me look bad!"
     show natsuki 4w
     n "Yeah right!"
     n "She started it!"
     show natsuki 4e
-    n "If she could just get over herself and learn that simpler forms of writing are more effective…"
+    n "If she could just get over herself and learn that simpler forms of writing are more effective..."
     n "Then this wouldn’t have happened in the first place!"
     n "Why should you make your poems all convoluted for no reason?"
     n "The reader shouldn’t be forced to search the meaning of the poem."
@@ -2753,31 +2754,31 @@ label story:
     show natsuki 1f
     n "Come on, [player]. Help me explain that to her!"
     show yuri 3o
-    y "Wait…!"
+    y "Wait...!"
     y "There is a reason we have so many deep and expressive words in our language!"
     show yuri 3w
     y "How else can we express more complex feelings effectively?"
     y "Unnecessarily avoiding them is not only limiting yourself, it’s a waste!"
     show yuri 1t
     y "Surely you understand that, right [player]?"
-    mc "Uh…"
+    mc "Uh..."
     show natsuki 1e
     show yuri 1r
     ny "Well??"
     show natsuki 1g
     "How the hell did I get dragged into this to begin with?!"
-    "It isn’t like I know anything about writing…"
+    "It isn’t like I know anything about writing..."
     "Whomever I go against probably won’t be all too happy with me after this."
-    "But, I have to agree with…"
+    "But, I have to agree with..."
     play music t8
     show yuri 1t
     mc "Yuri!"
     mc "You are very talented."
     show yuri 4a
-    y "Uu…"
+    y "Uu..."
     mc "But Natsuki has a point."
     show yuri 4b
-    mc "While a message full of larger vocabulary can sound more sophisticated…"
+    mc "While a message full of larger vocabulary can sound more sophisticated..."
     mc "I think that the ability to convey emotions with few words is just as impressive."
     mc "It allows for the reader’s imagination to take over."
     mc "And Natsuki’s poem did a very good job at that!"
@@ -2787,20 +2788,20 @@ label story:
     n "Ahah!"
     n "Shows how much you know!"
     show yuri 4c
-    y "That’s n-not…"
-    mc "Natsuki…"
+    y "That’s n-not..."
+    mc "Natsuki..."
     mc "I do believe that Yuri has a point as well."
     show natsuki 1m
-    n "B-But…"
+    n "B-But..."
     show natsuki 1n
     mc "As much as I enjoyed your poem, Yuri’s was still good."
     mc "Yuri’s writing style can convey a message just as well as yours."
     mc "Both do a good job at sending a message to the reader in a different way."
     show yuri 3v
-    y "I-I’m… sorry, Natsuki."
+    y "I-I’m... sorry, Natsuki."
     show natsuki 5u
-    n "Y-yeah…"
-    n "I’m sorry too…"
+    n "Y-yeah..."
+    n "I’m sorry too..."
     "They both go quiet."
     "..."
     "It’s actually kind of awkward."
@@ -2815,21 +2816,21 @@ label story:
     m "I think that we all got to read everyone’s poems, right?"
     m "What did you think of this, [player]?"
     show monika 4a
-    mc "Well, it was…"
+    mc "Well, it was..."
     mc "Something."
     mc "Definitely something."
     show monika 4k
     m "Ahahaha!"
     show monika 4b
-    m "Well, after reading our poems we all usually just hang…"
+    m "Well, after reading our poems we all usually just hang..."
     show monika 4n
     m "...Chill out around the clubroom."
     show monika 1b
     m "So you could read a book, write something."
     show monika 5e
-    m "Get back to being with Natsuki…"
+    m "Get back to being with Natsuki..."
     show monika 5a
-    mc "Hey-! That’s, uh…"
+    mc "Hey-! That’s, uh..."
     show monika 1k
     m "Ahahaha!"
     show monika 2b
@@ -2842,7 +2843,7 @@ label story:
     m "I look forward to reading everyone’s poems again tomorrow!"
     show monika 5a
     m "Especially you, [player]~"
-    mc "Ah… Thanks, Monika."
+    mc "Ah... Thanks, Monika."
     mc "I look forward to reading everyone’s poems, too."
     show monika at thide
     hide monika
@@ -2860,8 +2861,8 @@ label story:
     "However, I can’t say I’m not enjoying it."
     scene bg residential_day with wipeleft_scene
     show sayori 1a at t11
-    mc "Sayori…"
-    mc "About what happened earlier…"
+    mc "Sayori..."
+    mc "About what happened earlier..."
     show sayori 3h
     s "Eh? What do you mean?"
     show sayori 3g
@@ -2872,14 +2873,14 @@ label story:
     s "They’ve only fought like that once, and that was months ago!"
     s "I promise they are both wonderful people."
     show sayori 1h
-    s "You don’t… You don’t hate them, do you?"
+    s "You don’t... You don’t hate them, do you?"
     show sayori 1g
     mc "Of course not!"
     mc "I was just curious, is all."
     mc "I can see why you’re close friends with them."
     show sayori 1d
-    s "Phew…"
-    s "You know, [player]…"
+    s "Phew..."
+    s "You know, [player]..."
     s "It’s nice that I get to spend time with you in the club."
     show sayori 1x
     s "But I think seeing you get along with everyone else is what makes me the happiest."
@@ -2891,28 +2892,28 @@ label story:
     mc "Hang on."
     mc "You say that like you’ve had a rough history with the other subjects."
     show sayori 2l
-    s "I did…?"
+    s "I did...?"
     show sayori 2k
-    mc "Be honest Sayori…"
+    mc "Be honest Sayori..."
     mc "You and Monika have both brought up the past subjects."
     mc "What happened between you and them?"
-    s "…"
+    s "..."
     show sayori 2l
-    s "N-Nothing… I promise, nothing happened."
+    s "N-Nothing... I promise, nothing happened."
     show sayori 2k
     mc "Come on, s."
     mc "You said so yourself that only a few other subjects truly cared about writing poems for the club."
     mc "How many other subjects were there?"
     show sayori 1g
-    s "…"
+    s "..."
     show sayori 1h
-    s "I think… seven total. Including you."
+    s "I think... seven total. Including you."
     show sayori 1g
     mc "And did they not get along with the others?"
     show sayori 3h
-    s "There was one we were close with…"
+    s "There was one we were close with..."
     show sayori 3k
-    s "But everyone after him…"
+    s "But everyone after him..."
     s "I guess they just weren’t the same."
     s "They didn’t hang out with us as much, or have the same passion for literature as us."
     s "Everyone just seemed less happy after each subject."
@@ -2922,14 +2923,14 @@ label story:
     "Sayori’s eyes widen."
     s "I shouldn’t have said that!"
     show sayori 5b
-    s "That isn’t my business… ehehe."
+    s "That isn’t my business... ehehe."
     "It sounds like that’s all I’m able to get out of s."
     "I’m very curious about what she meant by singling out Natsuki."
     mc "I guess Natsuki will tell me when she feels comfortable, huh?"
     show sayori 1x
     s "Yeah."
     show sayori 3h
-    s "Just… try not to force it."
+    s "Just... try not to force it."
     show sayori 3g
     mc "I won’t."
     show sayori at thide
@@ -2946,7 +2947,7 @@ label story:
     mc "{i}The club members actually seemed to like it{/i}"
     j "{i}Yeah? Well good luck trying to write the way into their hearts{/i}"
     mc "{i}I told you, I’m looking for any kind of relationship{/i}"
-    j "{i}Suuure…{/i}"
+    j "{i}Suuure...{/i}"
     "I choose to ignore Josh’s stubbornness and move on to another subject."
     mc "{i}What’s been happening on your end?{/i}"
     j "{i}Same old same old{/i}"
@@ -2957,7 +2958,7 @@ label story:
     j "{i}He is genuinely convinced that the game has some kind of screwed up origins{/i}"
     "I start to type out a reply but stop mid sentence."
     "Screwed up? The literature club?"
-    "It sounds ridiculous, but…"
+    "It sounds ridiculous, but..."
     "Didn’t Dr. Rivera say something about this game being a psychological horror game?"
     "I decide to shrug it off, although I’m uncertain if it’s because I’m dismissing the thought, or afraid to find out the truth."
     mc "{i}Tell him to search all he wants, but he isn’t going to find anything{/i}"
@@ -2974,8 +2975,8 @@ label story:
     "I turn off my phone and set it back down on the kitchen table."
     "I haven’t forgotten about how late it was when I finished my poem last night, and I don’t want history to repeat itself."
     "I’m gonna need as much time as I can get."
-    "…As soon as I finish my sandwich, that is."
-    "As boring as everything here is, at least the food still tastes like… well, food."
+    "...As soon as I finish my sandwich, that is."
+    "As boring as everything here is, at least the food still tastes like... well, food."
     "I stuff the rest of my sandwich in my mouth, and go up to my room to start writing my poem."
     scene bg club_day with wipeleft_scene
     play music t2
@@ -2991,11 +2992,11 @@ label story:
     show sayori 4x
     s "I’m just happy that you’re in the club!"
     show sayori 2a
-    mc "This is my second day…"
+    mc "This is my second day..."
     show sayori 4r
     s "Yeah! That means you didn’t run away after the first!"
     show sayori 4q
-    mc "Well, so long as you’re happy…"
+    mc "Well, so long as you’re happy..."
     show sayori 2x
     s "Speaking of being happy, I'm kinda hungry..."
     s "Want to come to the vending machine with me to buy a snack?"
@@ -3009,7 +3010,7 @@ label story:
     s "Yaay~!"
     #Add Yuri sprite at t44?
     "I notice Yuri look up from her book out of the corner of my eye."
-    "She smiles to herself, almost like she knows something I don’t…"
+    "She smiles to herself, almost like she knows something I don’t..."
     "I’m sure it’s nothing."
     "s skips out of the clubroom, and I follow."
     scene bg corridor with wipeleft_scene
@@ -3022,7 +3023,7 @@ label story:
     show sayori 3b
     mc "Are you really this happy to get a snack?"
     show sayori 3c
-    s "Well…"
+    s "Well..."
     s "I guess it’s not just the snack."
     show sayori 4r
     s "I enjoy walking with you, too!"
@@ -3035,14 +3036,14 @@ label story:
     show sayori 3r
     s "Like cookies!"
     show sayori 3a
-    "That was almost deep…"
+    "That was almost deep..."
     "About as deep as s can go, I guess."
     "We reach a flight of stairs and take them down to the main floor."
     "I decide to change the topic."
     mc "How long have you and the others been around?"
     mc "When did you become aware that you’re in a game?"
     show sayori 3c
-    s "Hmm…"
+    s "Hmm..."
     show sayori 1n
     s "I think it was Tuesday."
     mc "There are fifty two tuesdays per year, s."
@@ -3074,7 +3075,7 @@ label story:
     show sayori 2f
     mc "You said so yourself, there isn’t much to do here outside of the literature club."
     show sayori 2l
-    s "Uummm…"
+    s "Uummm..."
     show sayori 2x
     s "If you look at it is just going to a literature club everyday, maybe."
     show sayori 2j
@@ -3086,18 +3087,18 @@ label story:
     show sayori 1x
     s "And if getting to be with your friends in your club doesn’t bring true happiness, I don’t know what does."
     show sayori 1a
-    mc "Huh…"
+    mc "Huh..."
     mc "Never thought of it like that."
     show sayori 4x
     s "Things are always better when you share it with friends!"
     show sayori 4a
     "We get to the vending machine, and s reaches into her coin purse."
     show sayori 3l
-    s "Ehe… Speaking of sharing with your friends…"
+    s "Ehe... Speaking of sharing with your friends..."
     "I sigh."
     mc "You didn’t bring any money, did you?"
     show sayori 5a
-    s "Maybe…?"
+    s "Maybe...?"
     "I reach into my pocket and retrieve a dollar."
     show sayori 4r
     s "Thank you~!"
@@ -3110,7 +3111,7 @@ label story:
     "She gets it out of the machine and immediately hugs it."
     mc "You planning on eating it or marrying it?"
     show sayori 5c
-    s "Heeey…"
+    s "Heeey..."
     s "Meanie."
     "I chuckle to myself."
     mc "Come on, we better get back to the clubroom before they wonder where we are."
@@ -3125,7 +3126,7 @@ label story:
     mc "s needed a snack."
     "Monika looks at s, who has several crumbs on her face."
     show monika 2n
-    m "Ah…"
+    m "Ah..."
     show monika 2l
     m "I see you fell for her trick."
     show monika 2a
@@ -3158,7 +3159,7 @@ label story:
     n "Yeah, well..."
     show natsuki 3m
     n "You had me thinking you weren’t going to show up."
-    n "You wouldn’t be the first one…"
+    n "You wouldn’t be the first one..."
     show natsuki 5u
     mc "Were you really that concerned?"
     show natsuki 1p
@@ -3174,9 +3175,9 @@ label story:
     "I hold out the manga for Natsuki to see."
     "She quickly grabs it from me and inspects it for any damage."
     show natsuki 1s
-    n "Hmm…"
+    n "Hmm..."
     show natsuki 1q
-    n "Seems to be in good condition…"
+    n "Seems to be in good condition..."
     show natsuki 2c
     n "Okay, I’ll give you a pass this time."
     show natsuki 4e
@@ -3209,19 +3210,19 @@ label story:
     show monika 1l at l31
     m "Sorry, sorry!"
     show monika 1n
-    m "The teacher asked me to move it so it would take up less space in the closet…"
+    m "The teacher asked me to move it so it would take up less space in the closet..."
     show monika 3d
     m "It’s all still there, I just had to move everything around."
     show monika at lhide
     hide monika
     show natsuki 1r
-    n "Ugh…"
+    n "Ugh..."
     n "The teachers here suck so bad they don’t even convey basic human emotions, yet somehow they still care about what’s in their damn closets."
     n "If you’re going to make the teachers as robotic as possible, at least go the whole way!"
     show natsuki 1r at h32
     "Natsuki hops a little in an attempt to reach the box."
     show natsuki 1q
-    n "Jeez…"
+    n "Jeez..."
     n "This is so inconvenient!"
     show natsuki 1c
     n "I’m moving these back down."
@@ -3229,7 +3230,7 @@ label story:
     show natsuki 4w
     n "Not to mention that they are really pretty to look at when they are all lined up!"
     n "Why waste that on the top shelf?"
-    mc "Hmm…"
+    mc "Hmm..."
     mc "Natsuki, there’s a stool right here."
     "I point to a collapsable stool hanging on the wall."
     mc "I bet I could reach those boxes if-{nw}"
@@ -3246,16 +3247,16 @@ label story:
     "She hops on the stool, which wobbles a little due to its collapsible design."
     show natsuki 1f
     n "A-Ah..."
-    mc "Careful…"
+    mc "Careful..."
     show natsuki 1q
     n "I know what I’m doing!"
     show natsuki 1r
     "Natsuki’s fingertips can barely reach one of the boxes from the stool."
     "I could easily grab them from the stool, but Natsuki’s too persistent and stubborn, as per usual."
-    n "U-Uuuuh…"
+    n "U-Uuuuh..."
     "Natsuki scoots one of the boxes from the shelf using her fingers."
     show natsuki 1t
-    n "See…?"
+    n "See...?"
     show natsuki 1v
     n "Kyah-!"
     "Suddenly, the box tips."
@@ -3297,7 +3298,7 @@ label story:
     "The chair swivels a little."
     "Natsuki catches herself on the shelf, and before I can think, I reach out to hold the chair in place."
     show n_cg2_exp1 at cgfade
-    n "T-Thanks…"
+    n "T-Thanks..."
     "...That was unexpected."
     "I imagined she would get angered that I was helping since 'she could do it herself', but that doesn't seem to be the case."
     hide n_cg2_exp1
@@ -3305,22 +3306,22 @@ label story:
     mc "--!"
     "{i}Don’t look up [player], don’t look up.{/i}"
     "{i}If you value your life in any way, DON’T LOOK UP{/i}"
-    "I seriously did NOT think this through…!"
+    "I seriously did NOT think this through...!"
     "I’m a dead man if she finds out!"
     show n_cg2_base at n_cg2_wiggle
     n "Hup-!"
     "Natsuki wraps her arms around the Parfait Girls box set, which is easily the largest."
-    n "Uu...heavy…"
+    n "Uu...heavy..."
     show n_cg2_exp1 at cgfade
     n "Hey, [player]?"
-    n "I don’t think I can bend down without falling…!"
-    n "Hurry and take this one…"
-    mc "Alright, I just need to get up…"
+    n "I don’t think I can bend down without falling...!"
+    n "Hurry and take this one..."
+    mc "Alright, I just need to get up..."
     "I slowly release my grip from the chair."
     n "What do you mean, ‘get up’?"
     n "Why are you all the way back-"
     stop music fadeout 1
-    n "E-Eh…?"
+    n "E-Eh...?"
     "Natsuki suddenly looks like she realized something, but if she moves she’s sure to lose her balance."
     mc "Natsuki, the box-"
     play music t7
@@ -3329,7 +3330,7 @@ label story:
     show n_cg2_base at n_cg2_wiggle_loop
     show n_cg2_exp1 at n_cg2_wiggle_loop
     show n_cg2_exp2 at n_cg2_wiggle_loop 
-    n "You’re trying to look at my...m-my…"
+    n "You’re trying to look at my...m-my..."
     "Natsuki’s legs shake."
     mc "I’m not! I swear Natsuki, I wasn’t!"
     mc "Just try not to move!"
@@ -3364,17 +3365,17 @@ label story:
     "The full force of Natsuki’s body against me throws me to the floor."
     "Several books fall onto my face."
     "Natsuki tries to shield herself with her own arms as her face lands on my chest."
-    mc "Ungh…"
+    mc "Ungh..."
     "My right arm and back seriously felt the impact."
     scene bg closet with fade
     show natsuki 1v at face
     play music t8
-    n "U-uu…"
+    n "U-uu..."
     "Slowly, Natsuki comes to her senses."
     mc "Ghk-!"
     "She presses her arms straight into me to prop herself up."
     show natsuki 1h
-    n "Eh…?"
+    n "Eh...?"
     "Natsuki suddenly realises that the ‘ground’ beneath her, isn’t actually the ground."
     show natsuki 1o
     n "G-Guuuuu!"
@@ -3386,8 +3387,8 @@ label story:
     n "What the hell were you thinking?"
     n "You’re sick!"
     show monika 1d at t31
-    m "Is everything okay over here…?"
-    m "I heard a loud noise…"
+    m "Is everything okay over here...?"
+    m "I heard a loud noise..."
     show monika 1c
     "Wonderful."
     "Now I’m about to have the club president on my back, too."
@@ -3397,7 +3398,7 @@ label story:
     n "See what happens when you put my manga on the top shelf?"
     show monika 5a at f31
     m "Sorry, sorry!"
-    m "Ahaha…"
+    m "Ahaha..."
     show natsuki 5r at f32
     n "Oh yeah!"
     n "The latest subject is another pervert!"
@@ -3415,15 +3416,15 @@ label story:
     "I guess that means I’ll get to continue come to the literature  club."
     stop music fadeout 1
     show natsuki 1p
-    n "Oh no…!"
-    n "My… my…"
+    n "Oh no...!"
+    n "My... my..."
     show natsuki 1m
     mc "Huh?"
     "I look down."
     "Natsuki is kneeling on the floor."
     "She has one of the volumes in her hands."
     "There is a large diagonal crease across one of the pages that she’s desperately trying to smooth out."
-    mc "It must have landed on the page…"
+    mc "It must have landed on the page..."
     "Natsuki continues to attempt to fix the crease, but it isn’t coming out."
     show natsuki 12b
     "She gives up and slams the book shut before throwing it to the floor."
@@ -3436,32 +3437,32 @@ label story:
     n "No!"
     "Natsuki’s voice squeaks."
     "Tears streak her face."
-    mc "Hey…"
+    mc "Hey..."
     mc "I can help to get the crease out, okay?"
-    mc "It’s my fault anyway, so…"
+    mc "It’s my fault anyway, so..."
     "Natsuki shakes her head, still refusing to look up."
-    n "No…"
-    n "I-I don’t even care all that much…"
-    n "I’m just…"
+    n "No..."
+    n "I-I don’t even care all that much..."
+    n "I’m just..."
     "She sighs."
-    n "Everything…"
-    n "Has just been…"
+    n "Everything..."
+    n "Has just been..."
     n "So... hard."
     show natsuki 12i
-    n "My dad, the subjects, you…"
-    n "And now this…"
+    n "My dad, the subjects, you..."
+    n "And now this..."
     "Natsuki sobs again."
-    n "I didn’t mean to take it out on you…"
+    n "I didn’t mean to take it out on you..."
     show natsuki 12h
-    mc "It’s… it’s fine."
-    mc "If there is… anything that you need to talk about…"
+    mc "It’s... it’s fine."
+    mc "If there is... anything that you need to talk about..."
     mc "I can listen."
     show natsuki 12f
     "Natsuki shakes her head."
-    n "I just wish I could…"
-    n "...Come to the club, and…"
+    n "I just wish I could..."
+    n "...Come to the club, and..."
     "Natsuki falls silent again."
-    "I know that pressing her while she’s like this is the wrong move…"
+    "I know that pressing her while she’s like this is the wrong move..."
     "So I do the only thing I know I can."
     mc "Well, I’ll help you clean all of this up."
     mc "I can get the rest of the manga down, too."
@@ -3473,18 +3474,18 @@ label story:
     show natsuki 12h
     "Natsuki looks up with glossy eyes."
     "Her lip quivers."
-    n "You…"
-    n "You’re really nice to me…"
-    n "Why…?"
-    mc "Huh…?"
+    n "You..."
+    n "You’re really nice to me..."
+    n "Why...?"
+    mc "Huh...?"
     "That sounds kind of odd, coming from Natsuki."
-    mc "Well…"
+    mc "Well..."
     mc "You’re my friend."
     mc "And friends help each other out, you know?"
     show natsuki 12f
     "Natsuki lowers her head and stifles another sob."
     "I can barely hear her speak under her breath."
-    n "...F-Friend…? Me…?"
+    n "...F-Friend...? Me...?"
     show natsuki at thide
     hide natsuki
     "I don't know what has happened to her over these past months, but being nice to her is the least I could do."
@@ -3498,8 +3499,8 @@ label story:
     "I step down from the stool."
     "Natsuki averts her gaze."
     show natsuki 5u at t32
-    n "T-Thanks…"
-    mc "Haha…"
+    n "T-Thanks..."
+    mc "Haha..."
     mc "It’s nothing."
     "Natsuki is holding the second volume in her hands."
     mc "Alright, I’m ready."
@@ -3529,7 +3530,7 @@ label story:
     show natsuki 4z
     n "Ehehe!"
     n "Told you."
-    mc "Yeah, yeah…"
+    mc "Yeah, yeah..."
     show natsuki at thide
     hide natsuki
     "I go to my seat to put the book into my bag."
@@ -3558,10 +3559,10 @@ label story:
     m 3b "Natsuki’s style is pretty good when it comes to having meaning."
     m 5a "I can see why you would want to try out her style."
     m 2d "I’m guessing that means you aren’t the biggest fan of Yuri’s poems, then?"
-    mc "I wouldn’t necessarily say that…"
+    mc "I wouldn’t necessarily say that..."
     mc "I’ve been enjoying everyone’s poems."
     m 2j "I’m sure you have, but it’s natural to prefer some styles over others."
-    m 2a "Yuri uses more complex words and symbolism…"
+    m 2a "Yuri uses more complex words and symbolism..."
     m 4d "And s expresses happiness or sadness in a more direct way."
     m 4b "Surely you have some kind of preference, right?"
     m 2k "Not that it’s a contest or anything!"
@@ -3601,20 +3602,20 @@ label story:
     hide monika with dissolve
     scene bg club_day with wipeleft_scene
     show natsuki 1n at t32
-    n "…"
+    n "..."
     "Natsuki reads my poem."
     show natsuki 1u
     "She keeps glancing between me and the poem."
     "She must have read it more than once by now."
-    n "Rrgh…"
-    mc "…?"
+    n "Rrgh..."
+    mc "...?"
     mc "Is it that bad?"
     show natsuki 1r
     n "No! No, it’s not!"
     n "It’s good. It’s really good, okay?!"
     show natsuki 5w
     n "There, I said it!"
-    n "Ugh… This isn’t what was supposed to happen at all…"
+    n "Ugh... This isn’t what was supposed to happen at all..."
     show natsuki 5q
     n "Why can’t you just be bad at this?"
     n "My poems are supposed to impress you, not the other way around!"
@@ -3624,57 +3625,57 @@ label story:
     n "Obviously! Do you think I would let you enjoy Yuri’s writing more than mine?"
     n "Give me a break."
     show natsuki 12b
-    mc "Well…"
+    mc "Well..."
     mc "If that’s the case, what’s wrong with me trying to impress you?"
     show natsuki 1e
     n "I’ll tell you! You-"
     show natsuki 1p
     n "--"
     "Natsuki freezes, as though she just realized something."
-    n "Y-Y-You…"
-    n "You’re trying to… impress {i}me?{/i}"
+    n "Y-Y-You..."
+    n "You’re trying to... impress {i}me?{/i}"
     show natsuki 1q
     "Natsuki vigorously scans her eyes over my poem one last time."
     "The poem slips out of her hands and flutters to the floor."
     show natsuki 1p
-    n "I… have to use the bathroom!"
+    n "I... have to use the bathroom!"
     show natsuki at lhide
     hide natsuki
     "Red-faced, Natsuki quickly walks out of the room."
     show monika 1d at t32
-    m "Hey, [player]…"
+    m "Hey, [player]..."
     m "Did you do something to Natsuki?"
-    m "I just saw her rush out like that…"
+    m "I just saw her rush out like that..."
     show monika 2g
-    m "You didn’t do anything… terrible… did you?"
+    m "You didn’t do anything... terrible... did you?"
     show monika 2f
     mc "N-No, of course not!"
     mc "I just told her-"
     "My voice gets caught in my throat."
     "There is no way I can tell Monika that I’m trying to impress Natsuki."
     show monika 2d
-    m "Hmm…?"
+    m "Hmm...?"
     show monika 2c
     "Monika sees the poem on the floor and swiftly picks it up."
     show monika 2a
     "She skims over it a second time, her smile not fading from her face."
     show monika 2d
     m "I see."
-    m "At first I thought you just liked her writing style…"
+    m "At first I thought you just liked her writing style..."
     m "But you wrote this {i}for{/i} Natsuki, didn’t you?"
     show monika 2a
-    mc "I-I mean…"
-    mc "Not exactly…"
+    mc "I-I mean..."
+    mc "Not exactly..."
     show monika 2d
     m "In fact, didn’t she like your poem from yesterday, too?"
     m "I’m surprised you know her taste so well already."
     show monika 4g
     m "Are you positive you haven’t played our game before?"
     show monika 4f
-    mc "No… I told you, I’ve never even heard of it."
+    mc "No... I told you, I’ve never even heard of it."
     "Monika nods slowly."
     show monika 1b
-    m "Anyway…"
+    m "Anyway..."
     m "How do you think Natsuki feels about you?"
     m "Oh, you don’t need to answer that."
     m "It was just something to think about."
@@ -3691,7 +3692,7 @@ label story:
     m "Of course! I liked it!"
     show monika 1j
     show natsuki 1r
-    n "Ugh…"
+    n "Ugh..."
     n "You should really stop reading things that aren’t for you, you know."
     n "You have a bad habit of doing that."
     show monika 1d
@@ -3725,19 +3726,19 @@ label story:
     show natsuki 2a
     mc "It’s quite a bit longer than yesterday’s."
     show natsuki 2w
-    n "Yesterday’s was way too short…"
+    n "Yesterday’s was way too short..."
     n "I was just warming up!"
     show natsuki 2c
     n "I hope you didn’t think that was the best I could do."
     show natsuki 2n
-    mc "No, of course not…"
+    mc "No, of course not..."
     show natsuki 2k
     n "Anyway, the message in this poem is pretty straightforward."
     n "I doubt I have to explain it."
     show natsuki 2c
     n "Sometimes you can explain complicated issues with much simpler analogies."
     n "And it helps people realize how stupid their being."
-    n "Like, anyone would agree that the subject of this poem is an ignorant jerk…"
+    n "Like, anyone would agree that the subject of this poem is an ignorant jerk..."
     show natsuki 2g
     mc "The other members aren’t like that, right?"
     show natsuki 2c
@@ -3753,17 +3754,17 @@ label story:
     n "...But that just makes people stupid!"
     n "Who cares what someone likes, as long as they’re not hurting anyone and it makes them happy?"
     show natsuki 1q
-    n "I think people really need to respect others for liking weird things…"
+    n "I think people really need to respect others for liking weird things..."
     show natsuki 1s
     mc "Well, I absolutely agree."
     mc "Or, I can relate to that at least."
     mc "And I‘m sure several other people can, too."
     show natsuki 4c
-    n "You know…"
-    n "I’m glad that you can appreciate this kind of writing…"
+    n "You know..."
+    n "I’m glad that you can appreciate this kind of writing..."
     show natsuki 4q
-    n "I mean… I know I was talking about that yesterday."
-    n "But I’ve been… Well, I’ve been enjoying sharing my writing with you, so…"
+    n "I mean... I know I was talking about that yesterday."
+    n "But I’ve been... Well, I’ve been enjoying sharing my writing with you, so..."
     show natsuki 4w
     n "...So consider yourself lucky, okay?"
     mc "Ahaha."
@@ -3772,12 +3773,12 @@ label story:
     n "What’s that supposed to mean?"
     n "I’m always honest!"
     show natsuki 12b
-    n "Jeez…"
+    n "Jeez..."
     n "Just look forward to tomorrow too, okay?"
     mc "Alright, I will."
     scene bg club_day with wipeleft_scene
     show sayori 2b at t11
-    s 2b "…"
+    s 2b "..."
     s 4r "Ooh!"
     s 2a "I like this one, [player]!"
     s "It has some nice feelings in it~"
@@ -3787,40 +3788,40 @@ label story:
     s 3x "Both of your poems have been really good, regardless of how little sleep you got as a result!"
     show sayori 3a
     mc "That’s good to hear."
-    mc "I’m just glad I’m meeting your standards…"
-    s 3l "Well…"
+    mc "I’m just glad I’m meeting your standards..."
+    s 3l "Well..."
     s 2a "I guess I don’t really have standards!"
     s "If a poem makes me feel things, it must be a good poem!"
-    "I’m not entirely certain how that works…"
+    "I’m not entirely certain how that works..."
     "...But to be fair, conveying emotion is pretty important when it comes to poetry."
-    mc "I guess you have a point…"
+    mc "I guess you have a point..."
     mc "I don’t really know what kind of writing you like in the first place."
     s 2x "Yeah!"
     s "Me neither!"
-    mc "Ugh…"
+    mc "Ugh..."
     mc "Have you at least tried to give it some thought?"
     s 4s "Aww, do you want to write something for me?"
     s "That’s so sweet~"
     mc "Yeah, right."
     mc "Come on, surely there’s something you like, right?"
-    s 3c "Well…"
-    s 1l "I guess I like… happy poems-"
+    s 3c "Well..."
+    s 1l "I guess I like... happy poems-"
     s 3n "Wait, sometimes I like sad poems, too."
-    s 3a "Sometimes a little bit of both…"
-    s "Kinda like that soft serve twist ice cream…"
-    s 4q "Mmmmmm…"
-    mc "Sayori…"
+    s 3a "Sometimes a little bit of both..."
+    s "Kinda like that soft serve twist ice cream..."
+    s 4q "Mmmmmm..."
+    mc "Sayori..."
     s 2m "Sorry!"
     s 2c "I guess I like poems that are a mix between happy and sad."
     s 2x "Soft serve style poems~"
-    mc "Happy and sad, huh…?"
+    mc "Happy and sad, huh...?"
     mc "Can’t say I can see you liking something sad, s..."
-    s 1q "Well…"
+    s 1q "Well..."
     s "I like happy the most!"
     s 1c "But sometimes when you have a little raincloud in your head.."
-    s 1d "A sad poem can give the raincloud a little hug…"
+    s 1d "A sad poem can give the raincloud a little hug..."
     s 4x "And make a nice happy rainbow!"
-    mc "Wow…"
+    mc "Wow..."
     mc "That was unexpectedly poetic."
     s 3n "Eh? It is?"
     s 3a "Maybe I’m getting better at expressing my feelings after all!"
@@ -3828,63 +3829,63 @@ label story:
     s 1c "I should go write that down!"
     s "You can read my poem now, okay?"
     call showpoem (poem_s2) from _call_showpoem_28
-    mc "Holy crap…"
+    mc "Holy crap..."
     mc "You wrote this, s?"
     s 1x "Of course I did!"
     s 1a "Didn’t I tell you yesterday that I was gonna write the best poem ever?"
-    mc "Yeah, but…"
-    mc "I didn’t expect something like this, especially not from you…"
+    mc "Yeah, but..."
+    mc "I didn’t expect something like this, especially not from you..."
     s 2o "Monika taught me a lot!"
-    s 2x "And I’ve really been in touch with my feelings lately…"
-    mc "I see that…"
-    mc "It’s almost kind of creepy…"
-    s 2b "Creepy…?"
-    mc "Well, I guess that isn’t the right word…"
+    s 2x "And I’ve really been in touch with my feelings lately..."
+    mc "I see that..."
+    mc "It’s almost kind of creepy..."
+    s 2b "Creepy...?"
+    mc "Well, I guess that isn’t the right word..."
     mc "Maybe because I’m so used to seeing you be cheerful."
     mc "Eh, who am I kidding?"
     mc "I’m looking too deep into this."
     mc "The point is it came out good, and you should be proud of it."
     s 1q "Aw, thanks~"
-    s 1l "I guess I just…"
+    s 1l "I guess I just..."
     s 1x "Feel like I was meant to express myself this way."
-    s 2a "It helps me understand my feelings a little better…"
+    s 2a "It helps me understand my feelings a little better..."
     s 4r "It’s like magic!"
     show sayori 4a
     mc "Well, I hope you keep it up!"
     s 1r "Yeah!"
     s 2a "Writing is the best!"
     s 2x "I’m gonna keep writing until I die!"
-    "Can they even die…?"
+    "Can they even die...?"
     mc "Hah, don’t get ahead of yourself."
     hide sayori with dissolve
     scene bg club_day with wipeleft_scene
     show yuri 1a at t11
-    y "…"
+    y "..."
     show yuri 2h
-    y "Umm…"
-    y "Are you… still mad at me…?"
+    y "Umm..."
+    y "Are you... still mad at me...?"
     show yuri 2g
     mc "Mad? About what?"
     show yuri 2h
-    y "For disrespecting Natsuki the other day…"
-    y "Because reading this poem…"
+    y "For disrespecting Natsuki the other day..."
+    y "Because reading this poem..."
     y "Now I know why you got mad at me."
-    y "Because you…"
+    y "Because you..."
     show yuri 3v
     y "...You prefer her writing over mine!"
     mc "Yuri, no, that’s not-"
-    y "Meaning that when I disrespected her…"
+    y "Meaning that when I disrespected her..."
     y "I disrespected you too... didn’t I?"
     show yuri 4c
-    y "Oh no…"
-    mc "Yuri…"
-    mc "I think you’re reading into this a little too much…"
-    y "How could I be so stupid…?"
-    y "I always let these things happen…"
-    y "Whenever I think before I speak, I just come off as awkward and unlikable…"
-    y "But when I speak without thinking, the things I want to keep inside come out and make people hate me…"
+    y "Oh no..."
+    mc "Yuri..."
+    mc "I think you’re reading into this a little too much..."
+    y "How could I be so stupid...?"
+    y "I always let these things happen..."
+    y "Whenever I think before I speak, I just come off as awkward and unlikable..."
+    y "But when I speak without thinking, the things I want to keep inside come out and make people hate me..."
     show yuri 2v
-    y "So please… don’t force yourself to be around me…"
+    y "So please... don’t force yourself to be around me..."
     show yuri 1e
     mc "Yuri, stop."
     mc "I don’t hate you."
@@ -3905,28 +3906,28 @@ label story:
     y "I-"
     y "..."
     y "...Thank you."
-    y "I’ll… show you tomorrow…"
+    y "I’ll... show you tomorrow..."
     "I smile back at her."
     "If she wishes to be left alone, I have no choice but to abide by her request."
     hide yuri with dissolve
     scene bg club_day with wipeleft_scene
     "After I finish sharing my poem with everyone, I look at Natsuki, who is currently sharing with s."
     "I remember what happened earlier with her and my poem."
-    "To be honest, I wasn’t planning on hanging on to this…"
+    "To be honest, I wasn’t planning on hanging on to this..."
     "I walk over to Natsuki’s backpack on one of the desks, and carefully slip my poem inside."
     scene bg club_day with wipeleft_scene
     play music t3
     show monika 1a at t11 zorder 1
     m "Okay, everyone!"
     m "We’re all done reading each other’s poems, right?"
-    m 1b "I have something extra planned for today, so if you could all come to the front of the room…"
+    m 1b "I have something extra planned for today, so if you could all come to the front of the room..."
     show yuri 1e at t41 zorder 1
     show natsuki 1b at t42 zorder 1
     show sayori 1a at t43 zorder 1
     show monika at t44 zorder 1
     n "What’s this ‘extra’ about?"
-    m "Well…"
-    m "I’ve been thinking…"
+    m "Well..."
+    m "I’ve been thinking..."
     m "...about the festival."
     m "It didn’t exactly go so well last time."
     n 2h "That’s one way of putting it."
@@ -3934,28 +3935,28 @@ label story:
     show natsuki 1n
     "Natsuki looks over at me and cuts her retort short."
     show natsuki 1s
-    m 2p "I know how disappointed some of us were, and I’ve been meaning to make it up to all of you…"
+    m 2p "I know how disappointed some of us were, and I’ve been meaning to make it up to all of you..."
     m 1n "If it’s okay with all of you, I would like to give the festival one last shot."
     m 3e "I know that no one else is here to see it, but I also know that we all worked very hard last time, and it would be a shame if that work never paid off."
-    s 1g "Monika…"
+    s 1g "Monika..."
     s 2x "I think that’s a great idea!"
     s 2a "We can have food and present our poems and everything!"
     "s seems ecstatic at the idea of the festival."
     show sayori 2g
     "The same cannot be said, however, for Natsuki and Yuri."
     y 1f "I appreciate that you want to make everything up to us, Monika, but I’m not sure if I can go through with this."
-    y 4b "Last time…"
+    y 4b "Last time..."
     "Yuri shudders at the thought of whatever happened during the last festival."
     y 1h "Last time was too much to forget about."
     n 3h "There is no way I’m doing this again!"
     n "We all forgave you, Monika, but I’m not about to follow through knowing what happened last time."
-    m 1g "I know, I know…"
-    m "I messed up…"
+    m 1g "I know, I know..."
+    m "I messed up..."
     m 2e "But we’ve all been through so much since then."
-    m 1f "If you don’t trust me that’s okay…"
+    m 1f "If you don’t trust me that’s okay..."
     m 1n "But I would like to show how good the festival would have been."
     m 1a "And show how good we would have done."
-    mc "Uhh, if you don’t mind me asking…"
+    mc "Uhh, if you don’t mind me asking..."
     mc "What exactly happened at the last festival?"
     show sayori 1k
     show natsuki 12b
@@ -3965,7 +3966,7 @@ label story:
     "The room goes completely silent."
     "Whatever happened at the festival must have been bad."
     "After everyone has remained quiet for a while, Monika speaks up."
-    m 1p "Last time…"
+    m 1p "Last time..."
     m 1r "...I made a huge mistake."
     m 2g "The worst mistake I could have ever made."
     m "And they all had to suffer because of it."
@@ -3976,38 +3977,38 @@ label story:
     m "This time I know the same thing won’t happen."
     m 1e "I think that if we follow through with this, we can do a really good job."
     m 2d "But, of course, if you guys aren’t comfortable with doing this then that’s fine."
-    s 1d "Aw…"
+    s 1d "Aw..."
     "Both s and Monika seem a little upset that Natsuki and Yuri aren’t willing to hold their own festival."
     "Personally, I’m not entirely sure of the point if we’re the only ones who can physically show up."
     "But it does seem like Monika wants to do this festival as a way to apologize for some unknown act."
     show yuri 4a
     show natsuki 12a
-    mc "Well…"
-    mc "I’m still not entirely certain about what happened at the last festival…"
+    mc "Well..."
+    mc "I’m still not entirely certain about what happened at the last festival..."
     mc "...But I’m willing to take part in it if it’s that important to you guys."
     show monika 2e
     "Monika smiles at me."
-    m "Thank you, [player]…"
+    m "Thank you, [player]..."
     show yuri 1v
     "Yuri lifts her head."
-    y "I…"
-    y 1s "I guess I can do this… once more…"
+    y "I..."
+    y 1s "I guess I can do this... once more..."
     s 4s "Yaay~!"
     show natsuki 1u
     "That just leaves Natsuki, who seems to be thinking deeply about whether or not to do the festival."
-    n "Uu…"
+    n "Uu..."
     n 3w "Okay, fine!"
     n 3h "But only this one time!"
     show natsuki 3g
     m 2n "Thank you, everyone."
-    m 2e "I… Really wanted to make it up to you guys."
+    m 2e "I... Really wanted to make it up to you guys."
     s 1a "So what’s the plan?"
-    m 2g "Well, we can still recite our poems, just not in front of an audience…"
+    m 2g "Well, we can still recite our poems, just not in front of an audience..."
     m 1b "...And we can make food and just relax after we finish!"
     show monika 1a
     "I want to object to reciting the poems, but I then realize that what Monika said is true; No one else will be there to hear my sad excuse for poetry."
     m 2k "Why don’t we practice reciting in front of each other right now?"
-    y 3n "U-ummm…"
+    y 3n "U-ummm..."
     show yuri 3o
     n 2o "N-Now!? No way!"
     show natsuki 2r
@@ -4024,11 +4025,11 @@ label story:
     hide natsuki
     hide yuri
     show monika at t11 zorder 1
-    m 1m "Now, let’s see…"
+    m 1m "Now, let’s see..."
     "Monika flips through her notebook in search of a specific poem."
     "She then stands behind the podium."
     m 2b "The title of this poem is The Way They Fly."
-    m 2a "Ahem…"
+    m 2a "Ahem..."
     show monika at thide zorder 1
     hide monika
     "Monika begins to recite her poem."
@@ -4045,7 +4046,7 @@ label story:
     "Monika takes a breath and smiles."
     show monika 1a at t22 zorder 1
     show sayori 4r at t21 zorder 1
-    s "That… that was so good, Monika!"
+    s "That... that was so good, Monika!"
     show sayori 1a
     m 2n "Ahaha, thank you very much."
     m 2b "I was just hoping to set a good example."
@@ -4067,8 +4068,8 @@ label story:
     show yuri 2n
     "Yuri nervously glances at all of us."
     show yuri 2q
-    s "You can do it, Yuri…"
-    y 1j "It...It’s called… After Image of a Crimson Eye."
+    s "You can do it, Yuri..."
+    y 1j "It...It’s called... After Image of a Crimson Eye."
     "Yuri’s voice shakes as she starts reading the poem."
     "Yuri didn’t seem too keen on reading her poetry a moment earlier."
     "Why is she suddenly putting in so much effort?"
@@ -4076,12 +4077,12 @@ label story:
     "It’s almost like what happens when Yuri gets absorbed in her books."
     "Her quivering words transform into the sharp syllables of a fierce and confident woman."
     "The poem itself is full of twists and turns in its structure that she eunicates with perfect timing."
-    "This must be a rare glimpse at the whirling fire Yuri keeps concealed inside her head…!"
+    "This must be a rare glimpse at the whirling fire Yuri keeps concealed inside her head...!"
     "Suddenly, she’s finished."
     "Everyone is stunned."
     show yuri 3n
     "Yuri snaps back into reality and glances around her, as if she bewildered even herself."
-    y 3o "I…"
+    y 3o "I..."
     show yuri 2f
     "I’m the first to start applauding."
     show yuri 1i
@@ -4096,8 +4097,8 @@ label story:
     m "Yuri, that was really good."
     m 2j "Thank you for sharing."
     show monika 1a
-    y 4c "…"
-    "Looks like Yuri is down for the count…"
+    y 4c "..."
+    "Looks like Yuri is down for the count..."
     show yuri 1a
     s 4r "Okaay~"
     s 2x "I guess I’m next, then!"
@@ -4109,28 +4110,28 @@ label story:
     hide natsuki
     show sayori 1a at t11
     "s hops out of her chair and cheerfully walks up to the podium."
-    s 2c "This one’s called… My Meadow."
-    s 2l "Ah…"
+    s 2c "This one’s called... My Meadow."
+    s 2l "Ah..."
     s 1r "...Ahaha!"
-    s 1m "Sorry, I giggled…"
-    s 1l "Ehehe…"
-    mc "Sayori…"
+    s 1m "Sorry, I giggled..."
+    s 1l "Ehehe..."
+    mc "Sayori..."
     s 2p "It’s a lot harder than I thought!"
     s 2c "How did you guys do it so easily?"
-    m "Ah…"
+    m "Ah..."
     m "Try not to think of it like you’re reciting to other people."
     show sayori 1b
     m "Imagine you’re reciting it to yourself, like in front of a mirror, or in your own head."
     m "It’s your poem, so it’ll come out best that way."
-    s 1c "I see, I see…"
-    s 1x "Okay, then…"
+    s 1c "I see, I see..."
+    s 1x "Okay, then..."
     show sayori at thide zorder 1
     hide sayori
     "s begins her poem."
     "Somehow, it feels like her soft voice was made as a perfect match."
     "The poem isn’t aimlessly cheery like s is."
     "It’s serene and bittersweet."
-    "If I were to read it on paper, I probably wouldn’t think much of it…"
+    "If I were to read it on paper, I probably wouldn’t think much of it..."
     "But hearing it come from Sayori’s voice gives it almost a whole new meaning."
     "s finishes and we applaud."
     show sayori 4r at t11
@@ -4139,26 +4140,26 @@ label story:
     s 1x "Ehehe, even [player] liked it."
     s 1q "I guess that’s a good sign~"
     show sayori 1a
-    mc "What does that even mean…?"
+    mc "What does that even mean...?"
     show monika 4b at t31 zorder 1
     m "It came out nicely, s."
     m "The atmosphere of the poem really fits you."
     show monika 4d
-    m "But it might be that other poems wouldn’t work quite as well with that kind of delivery…"
+    m "But it might be that other poems wouldn’t work quite as well with that kind of delivery..."
     show monika 4c
     show sayori 3h
-    s "Eh? I don’t really understand…"
+    s "Eh? I don’t really understand..."
     show sayori 3g
     show monika 4b
     m "In other words, I’ve seen poems of yours where that sort of gentle delivery wouldn’t work as well."
-    m "They might need a little more force behind them, depending on what you’re reading…"
+    m "They might need a little more force behind them, depending on what you’re reading..."
     show monika 4a
     show sayori 3x
     s "Oh, I know what you mean!"
     show sayori 3l
-    s "That’s… well, I’ve been practicing that sort of thing…"
-    s "It’s just embarrassing to do in front of everyone…"
-    s "Ehehe…"
+    s "That’s... well, I’ve been practicing that sort of thing..."
+    s "It’s just embarrassing to do in front of everyone..."
+    s "Ehehe..."
     show monika 4b
     m "Then next time, I’m going to make you pick a poem that challenges you a little more."
     show monika 4a
@@ -4172,21 +4173,21 @@ label story:
     show natsuki 1g at t33
     n "Hmph."
     n 1h "Don’t make me go before [player]."
-    n 1q "It’s not like I can compare to you guys, anyway…"
+    n 1q "It’s not like I can compare to you guys, anyway..."
     n "Might as well let [player] lower everybody’s standards a little before I have to read mine."
     show monika 2n
     show natsuki 1g
     m "Natsuki..."
     mc "It’s fine, it’s fine."
     mc "Might as well get it over with."
-    mc "Don’t have much of a selection of what to read, though…"
+    mc "Don’t have much of a selection of what to read, though..."
     mc "I’ll just go with yesterday’s."
     show sayori 2c at t31
     s "Why not today’s? I thought today’s was good!"
     show sayori 2b
-    mc "I...Uhhh…"
+    mc "I...Uhhh..."
     "I can’t seem to figure out how to explain that today’s poem is in Natsuki’s custody."
-    mc "I guess… yesterday’s feels like it would work better when recited out loud."
+    mc "I guess... yesterday’s feels like it would work better when recited out loud."
     show sayori 2a
     show natsuki 1k
     "s seems to accept my answer."
@@ -4202,16 +4203,16 @@ label story:
     "I find it a little difficult to put energy into it, since I’m not all too confident with my writing yet."
     "Regardless, everyone applauds once I’m finished."
     show monika 1a at t11
-    mc "Sorry I’m not as good as everyone else…"
+    mc "Sorry I’m not as good as everyone else..."
     m 2k "Don’t worry about it so much."
     m 2e "I think it’s less about your abilities, and more about your lack of confidence in your writing."
     m 1b "That’s something that will improve over time, though."
     show monika 1a
-    mc "I sure hope so…"
+    mc "I sure hope so..."
     m 3b "Alright, then!"
     m 3a "That just leaves you, Natsuki."
     show natsuki 5e at t31
-    n "Yeah, yeah…"
+    n "Yeah, yeah..."
     n  "I’m going."
     show monika at thide zorder 1
     hide monika
@@ -4229,13 +4230,13 @@ label story:
     "I smile at her as she walks up."
     show natsuki 2t
     "She turns red before smiling back."
-    n 1i "O-Okay…"
-    n 1q "This poem is called…"
-    n 1s "It’s called…"
+    n 1i "O-Okay..."
+    n 1q "This poem is called..."
+    n 1s "It’s called..."
     n 2f "W-Why are you all looking at me?!"
-    m "Because you’re presenting…"
-    n 1s "Hmph…"
-    n 1c "Anyway… the poem is called Jump."
+    m "Because you’re presenting..."
+    n 1s "Hmph..."
+    n 1c "Anyway... the poem is called Jump."
     show natsuki at thide
     hide natsuki
     "Natsuki takes a breath."
@@ -4248,34 +4249,34 @@ label story:
     show natsuki 1g at t22 zorder 1
     show monika 1a at t21 zorder 1
     m 2b "That wasn’t so bad, was it?"
-    n 5h "Easy for you to say…"
+    n 5h "Easy for you to say..."
     n 1b "I just hope I don’t need to do that again before the festival."
     n 2d "This would be so much easier if we could recite this in front of other people."
     n "I can put on whatever face I want for other people."
-    n 1k "But when it’s just my friends…"
-    n 2u "It’s just… embarrassing."
+    n 1k "But when it’s just my friends..."
+    n 2u "It’s just... embarrassing."
     show natsuki at t33 zorder 1
     show monika at t32 zorder 1
     show sayori 1c at t31 zorder 1
-    s "That’s a surprise, Natsuki…"
+    s "That’s a surprise, Natsuki..."
     s 1b "I think it would be the other way around for me."
-    n 1c "Well, that’s just how it is, so…"
+    n 1c "Well, that’s just how it is, so..."
     show natsuki 1g
-    m 4l "Well, you’ll only need to do this once or twice more…"
+    m 4l "Well, you’ll only need to do this once or twice more..."
     m 2b "Then you’ll be done!"
     m 1a "And with that being said, I want to thank everyone for going through with this."
     m 1b "The practice, and the festival."
     m 2m "It means a lot to me."
     m 2b "Just make sure you have a poem and practice it before the festival, okay?"
     show monika 1a
-    mc "Jeez…"
+    mc "Jeez..."
     mc "Guess I should find some other poem to recite then, huh?"
     m 2l "That’s fine!"
     m 2b "It doesn’t have to be your own."
     m "I’m already pleasantly surprised at the effort you’ve put in for this club."
     m 2l "It makes me - and the rest of us - really happy!"
     show monika 1a
-    mc "Ah… Yeah, no problem…"
+    mc "Ah... Yeah, no problem..."
     scene bg club_day with wipeleft_scene
     play music t8
     show natsuki 1a at t44 zorder 1
@@ -4291,13 +4292,13 @@ label story:
     show monika 2a
     s 4r "I can’t wait~!"
     show sayori 4a
-    y 3l "I can do this… I can do this…"
+    y 3l "I can do this... I can do this..."
     show yuri 3m
     mc "Alright-"
     show yuri 1a
     "I stand up."
     "I doubt I’ll have the same level of enthusiasm as s or Monika, but I’ll do my best to pull through."
-    "It’s for the club…"
+    "It’s for the club..."
     "And giving Monika this opportunity to make up for the last festival."
     "So I have no choice but to give it my best."
     mc "Ready to go, s?"
@@ -4308,12 +4309,12 @@ label story:
     show monika 2j
     s 2q "Ehehe~"
     show monika 2a
-    mc "Jeez, guys…"
+    mc "Jeez, guys..."
     mc "No need to make such a big deal out of it."
-    y 1f "It must be a little nice, though…"
+    y 1f "It must be a little nice, though..."
     show yuri 1u
-    mc "Well…"
-    mc "Ah…"
+    mc "Well..."
+    mc "Ah..."
     "How am I supposed to respond to that?"
     s 2x "It’s okay, [player], you don’t have to say it."
     show sayori 1q
@@ -4331,77 +4332,77 @@ label story:
     "Even though I haven’t even been here for a week, I feel as though my life has changed significantly."
     "But today, s seems quieter than usual on the walk home."
     show sayori 1k at t11
-    mc "Hey, Sayori…"
-    s "…"
+    mc "Hey, Sayori..."
+    s "..."
     s 4m "...Sorry! I was spacing out!"
-    mc "Ah, no wonder…"
-    s 2l "Umm…"
-    s 2c "I was… thinking about something from earlier."
-    s 1d "Being able to walk with you everyday has been…"
-    s 1l "I-I mean…"
+    mc "Ah, no wonder..."
+    s 2l "Umm..."
+    s 2c "I was... thinking about something from earlier."
+    s 1d "Being able to walk with you everyday has been..."
+    s 1l "I-I mean..."
     "s fumbles on her words."
-    s 2c "So, let’s just say that someday, Natsuki asks to walk home with you…"
+    s 2c "So, let’s just say that someday, Natsuki asks to walk home with you..."
     mc "Huh?!"
     s 1x "What would you do?"
     show sayori 1a
-    mc "That’s a bit of a bizarre question…"
-    mc "You’re kind of putting me on the spot, here…"
-    s 1l "Ehehe…"
+    mc "That’s a bit of a bizarre question..."
+    mc "You’re kind of putting me on the spot, here..."
+    s 1l "Ehehe..."
     show sayori 1k
     menu:
         "Well..."
         "I would still walk home with you":
             $ walkSayori = True
             show sayori 1g
-            mc "Sayori…"
+            mc "Sayori..."
             mc "You really think I would ditch you for Natsuki?"
             s 2m "Eh?!"
-            s 2h "B-But…"
-            s 1c "She’s so cute and fun to be around…"
-            mc "Yeah…"
+            s 2h "B-But..."
+            s 1c "She’s so cute and fun to be around..."
+            mc "Yeah..."
             show sayori 1d
             mc "But I already see her in the club every day."
-            mc "Besides, you always seem really happy when we walk home together…"
+            mc "Besides, you always seem really happy when we walk home together..."
             mc "I wouldn’t just ruin that for you."
             s 2a "You’re so silly, [player]."
             s 2d "You’re thinking about me too much."
-            s 2l "Natsuki would deserve you if she wanted it, so…"
+            s 2l "Natsuki would deserve you if she wanted it, so..."
             show sayori 1g
             mc "I’ve already made up my mind, s."
             "Truth be told, I feel way more comfortable walking home with s."
-            "She’s just a friend. Natsuki, on the other hand…"
+            "She’s just a friend. Natsuki, on the other hand..."
             "I told myself that I wouldn’t get into any relationships while I was in the game."
             "The last thing I need is to say goodbye to a girl I’ve bonded with for a month, knowing I’ll never see her again."
             mc "Besides, no reason to speculate on what’s never going to happen."
-            s 1b "Hmm…"
+            s 1b "Hmm..."
             "The conversation trails off."
             "It seems like a weird thing for s to be concerned about."
             show sayori 1d
             "But I want to respect her and keep her happy for the month that I’m around her."
-            "Although…"
-            "The festival is only a few days away…"
+            "Although..."
+            "The festival is only a few days away..."
             "Who knows what could happen?"
         "I would walk home with Natsuki":
             $ walkSayori = False
             show sayori 1b
-            mc "Walking home with Natsuki, huh…"
-            "Just the thought of it makes my heart pound…"
-            mc "I mean…"
-            mc "A part of me is afraid of what she’ll do to me if I turn her down…"
-            mc "But, well…"
-            mc "I guess the idea doesn’t sound too bad…"
+            mc "Walking home with Natsuki, huh..."
+            "Just the thought of it makes my heart pound..."
+            mc "I mean..."
+            mc "A part of me is afraid of what she’ll do to me if I turn her down..."
+            mc "But, well..."
+            mc "I guess the idea doesn’t sound too bad..."
             s 2x "Isn’t she so cute and fun to be around?"
             show sayori 2a
             mc "That has nothing to do with what I just said."
             s 4r "Ahaha! You admitted it!"
             show sayori 4q
-            mc "Come on… give me a break."
+            mc "Come on... give me a break."
             mc "I don’t know why you’re even asking me this."
             show sayori 2a
             mc "No reason to speculate on what’s never going to happen."
-            s 1l "Well, maybe…"
+            s 1l "Well, maybe..."
             s 1c "But I just like to think about it."
-            s 2x "Finding the one thing here you could never find in real life…"
+            s 2x "Finding the one thing here you could never find in real life..."
             s 2q "Love~"
             mc "s-!"
             show sayori 1a
@@ -4418,10 +4419,10 @@ label story:
             "Either way, I’m kind of stuck."
             show sayori 1k
             "The conversation trails off, and I’m left feeling awkward and with a headache from imagining too many realities I could end up in."
-            "I don’t understand why s would trap me with such a weird question…"
+            "I don’t understand why s would trap me with such a weird question..."
             "The last thing I need is to stress out over things that will never happen."
-            "Although…"
-            "The festival is only a few days away…"
+            "Although..."
+            "The festival is only a few days away..."
             "Who knows what could happen?"
     show sayori at thide zorder 1
     hide sayori
@@ -4451,7 +4452,7 @@ label story:
     "{i}Please answer these questions as soon as possible.{/i}"
     "{i}This is necessary in order to get results from the project.{/i}"
     "{i}Signed, Dr. Randall Lawson{/i}"
-    "I completely forgot that my every move was being watched and recorded…"
+    "I completely forgot that my every move was being watched and recorded..."
     "There are probably several scientists watching me go to the club every day as they shake their heads with disappointment."
     "In the email is a link to a survey full of questions."
     "They’re all pretty simple, asking me stuff like, ‘have any of your eating habits changed recently?’ or ‘How often have you interacted with the characters compared to real people in the past?’"
