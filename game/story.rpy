@@ -671,53 +671,73 @@ label story:
     #Orange/Monika/Matt
     #Classroom, unless we can find another bg. Just feeling hesitant about constantly using the same classroom bg multiple times
     scene bg class_day with wipeleft_scene
+    play music t6
     "I enter the classroom and drop my backpack by a seat at the back of the room."
     "It’s now third period, and I had spent all of the last period scrolling through social media."
     "After scrolling on my phone for over two and a half hours, my head feels slightly dazed."
-    "I lean back in my chair and close my eyes..."
-    scene black with dissolve
-    "..."
-    "..."
-    "..."
+    "I lean back in my chair and close my eyes…"
+    scene bg black with fadeout
+    "…"
+    "…"
+    "…"
     anon "...Hello?"
-    scene bg class_day with dissolve
-    show monika happ cm oe at t11
+    scene bg class_day with fadeout
+    show monika forward rhip curi cm oe at t11
     "I open my eyes to see a girl standing in front of my desk."
     "She has emerald eyes and brown hair, along with a long, white ribbon."
     "She’s wearing the same uniform as Sayori, except her blazer is buttoned up and the ribbon around her neck is properly tied."
     "I quickly sit up."
-    mc "Oh! Hey, what’s up?"
+    mc "MC greets Monika in a way that I cannot currently think of. My brain is melting, and excuse me for being unable to think of how someone would respond to meeting an attractive stranger."
+    show monika happ cm oe
     "I offer her a smile, which she returns with a smile of her own."
-    "I feel my heart melt slightly..."
-    m "My name is Monika Kimoto. I’m the president of the literature club! Nice to meet you!"
+    "I feel my heart melt slightly…"
+    m om "My name is Monika Kimoto. I’m the president of the literature club! Nice to meet you!"
+    show monika cm
     mc "I’m [player]. It’s nice to meet you, too."
+    show monika rdown
     "Monika takes a seat at the desk next to me."
-    m "So, what do you think so far?"
-    mc "Hm? Think of what?"
-    m "Of our reality! I know it’s really different from what you’re used to."
+    show monika neut om oe
+    m "So, how are you enjoying our reality so far? I know it’s really different from what you’re used to."
+    show monika cm
     "Something about that sentence throws me off."
-    "She knows it’s really different...?"
-    mc "Heh, well, I guess you’re right... but it’s not all bad."
+    "She knows it’s really different…?"
+    mc "Heh, well, I guess you’re right… but it’s not all bad."
     mc "If anything, it actually does kind of feel like my reality."
     "Monika slowly nods in response."
+    show monika happ om oe
     m "Well, I’m glad to hear that. I know that some of the previous subjects didn’t feel the same way, so I just wanted to make sure you felt comfortable here!"
+    #Contemplating whether or not to hide Monika, since she doesn't say anything or do anything we can express
+    #with a facial expression. We may also hide her a couple lines later instead
+    show monika at thide
+    hide monika
     "Moments after she says that, the teacher springs to life and begins the lesson."
     "As soon as the class starts, Monika opens her backpack and retrieves her notebook."
     "Despite not wanting anything to do with English class today, I immediately follow suit."
     "Class continues, and we both take notes when necessary."
-    "She even takes notes when it isn’t necessary."
+    "Actually, I'm pretty sure I saw Monika taking notes whenever she could."
     "I feel like I want to talk to her, but she seems pretty focused on what the teacher is doing."
-    "I do my best to act as Monika does, focusing on the class, taking notes, and doing whatever it is the teacher would ask."
+    "I do my best to act as Monika does, focusing on the class, taking notes, and doing everything the teacher asked."
+    #The part about doing what the teacher asked may be rewritten or removed
     "It feels incredibly wrong, but I don’t want to make a bad impression."
-    "Considering how invested she is in the class, I’m surprised she isn’t in honors..."
+    "Considering how invested she is in the class, I’m surprised she isn’t in honors…"
+    #Honors line is intened to foreshadow the lack of extra classes in this reality, may remove this line later
     "After fifty minutes have passed, the bell rings, and we both grab our bags."
-    m "Hey, [player], I wanted to ask..."
+    show monika neut om oe at t11
+    m "Hey, [player], do you have a minute?"
+    show monika ma
+    mc "Hm? Uh, sure."
+    show monika om
     m "...Sayori’s probably already told you about this, but the literature club begins everyday after school."
+    show monika mb
     m "Be sure to stop by sometime! We’re always excited to get a new member!"
+    show monika ma
     mc "Don’t worry, I promise I’ll be there."
     "What the hell am I saying!?"
-    "The last place I want to be is at this stupid club, but that smile..."
+    "The last place I want to be is at this stupid club, but that smile…"
+    show monika happ om ce
     m "That’s great! I’ll see you later, [player]!"
+    show monika at thide
+    hide monika
     "She waves and leaves the classroom, as I stand there, still processing what just happened."
     "Getting out of this club is going to be harder than I thought."
 
