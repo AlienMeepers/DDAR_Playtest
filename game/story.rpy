@@ -583,13 +583,13 @@ label story:
     # Red/Sayori/Jonah
     play music t3
     scene bg club_day with wipeleft_scene
-    show sayori turned happ cm oe
+    show sayori turned happ cm oe at t11
     mc "Sayori, I never said I’d join the club."
     mc "Being perfectly honest, I don’t even like reading."
     show sayori sad
     "Sayori’s smile fades away as I say this."
-    s om "Oh… Sorry, it’s just…"
-    s dist "There isn’t much here, so I thought you could join the club…"
+    s om "Oh... Sorry, it’s just..."
+    s dist "There isn’t much here, so I thought you could join the club..."
     show sayori cm
     "She seems so disappointed. How can she be so upset about a guy she just met not joining her club?"
     "Sayori is right about one thing, however. Although I still haven’t seen all that this world has to offer, I can’t imagine that there’s much to do around here."
@@ -600,7 +600,7 @@ label story:
     "Sayori suddenly looks up at me, her eyes full of excitement."
     s "Really?"
     s "Thank you, [player]! I knew from the moment I saw you that you couldn’t be mean, even if you wanted to~!"
-    "What the hell does that mean…?"
+    "What the hell does that mean...?"
     "I remain quiet for the rest of the walk to school."
     "It isn’t long before the school building is in sight, and Sayori and I step inside."
     "Hallway"
@@ -611,19 +611,19 @@ label story:
     s "Oops! I forgot to give you this."
     "She hands me a sheet of paper."
     "On it are all of my classes, room numbers, and my locker combination."
-    "The final ‘class’ is the literature club, which seems to start when school ends, and lasts for…"
+    "The final ‘class’ is the literature club, which seems to start when school ends, and lasts for..."
     "2 hours!? This sounds more like a form of torture than an after school club."
     "{i}At least you only need to put up with it for today.{/i}"
-    mc "Uhh… how did you get my schedule?"
+    mc "Uhh... how did you get my schedule?"
     s "It was given to the club yesterday. They always give us all of the necessities for the new club members so that you feel right at home!"
     "{i}‘They?’ Does she mean the scientists behind the project?{/i}"
     "Sayori pulls out her own schedule and compares it to mine."
     "A wide smile suddenly crosses her face."
     s "Look! We have first period together!"
     "I look down at our schedules."
-    "First period is…"
+    "First period is..."
     mc "Chemistry!? God, you have GOT to be kidding me."
-    s "It’s not that bad… Besides, we’ll be there together, which will make it even better!"
+    s "It’s not that bad... Besides, we’ll be there together, which will make it even better!"
     "Sayori does her best to cheer me up as we walk to our first class."
     "To her credit, having someone in class I can talk to makes me dread chemistry slightly less than usual, even if it is someone who I just met today."
     "Classroom"
@@ -634,7 +634,7 @@ label story:
     "The only things that stand out to me are the obvious lack of other students, and the teacher standing at the front of the room."
     "His body is facing us, but his head is lowered in a way that looks like he’s depressed. His arms are stiff at his sides, and his chest doesn’t even move to show signs of breathing."
     "Aside from those clearly non-human traits, perfectly normal."
-    mc "Hey, Sayori… What’s the deal with… him."
+    mc "Hey, Sayori... What’s the deal with... him."
     "I nod in the direction of the teacher."
     s "Oh, don’t worry, the teachers always act like that. He’ll start moving and talking when class starts."
     mc "But seeing him like this doesn’t unnerve you at all? You gotta admit, it’s pretty unsettling."
@@ -656,36 +656,39 @@ label story:
     "I slowly take my phone out of my pocket."
     "Just like Sayori said, the teacher continues teaching."
     "A smile creeps across my face."
-    "Maybe entering this game wasn’t such a bad idea after all…"
+    "Maybe entering this game wasn’t such a bad idea after all..."
     "scene bg_classroom with wipeleft_scene"
     "I spend the rest of class on my phone."
     "I didn’t catch anything the teacher said, but for now, I don’t really care."
     "Man, Josh is gonna be so jealous when he hears about this!"
     "I sling my backpack across my shoulder and start to walk out."
     s "Bye, [player]! See you at the club later!"
+    hide sayori
     "I turn around to give a quick wave to Sayori, doing my best to force a smile."
-    "The idea of going to a book club for two hours is going to haunt me for the rest of the day…"
+    "The idea of going to a book club for two hours is going to haunt me for the rest of the day..."
 
 
-     #Orange/Monika/Matt
-      #Classroom, unless we can find another bg. Just feeling hesitant about constantly using the same classroom bg multiple times
+    #Orange/Monika/Matt
+    #Classroom, unless we can find another bg. Just feeling hesitant about constantly using the same classroom bg multiple times
+    scene bg class_day with wipeleft_scene
     "I enter the classroom and drop my backpack by a seat at the back of the room."
     "It’s now third period, and I had spent all of the last period scrolling through social media."
     "After scrolling on my phone for over two and a half hours, my head feels slightly dazed."
-    "I lean back in my chair and close my eyes…"
-    "Black"
-    "…"
-    "…"
-    "…"
+    "I lean back in my chair and close my eyes..."
+    scene black with dissolve
+    "..."
+    "..."
+    "..."
     anon "...Hello?"
-    "Classroom"
+    scene bg class_day with dissolve
+    show monika happ cm oe at t11
     "I open my eyes to see a girl standing in front of my desk."
     "She has emerald eyes and brown hair, along with a long, white ribbon."
     "She’s wearing the same uniform as Sayori, except her blazer is buttoned up and the ribbon around her neck is properly tied."
     "I quickly sit up."
     mc "Oh! Hey, what’s up?"
     "I offer her a smile, which she returns with a smile of her own."
-    "I feel my heart melt slightly…"
+    "I feel my heart melt slightly..."
     m "My name is Monika Kimoto. I’m the president of the literature club! Nice to meet you!"
     mc "I’m [player]. It’s nice to meet you, too."
     "Monika takes a seat at the desk next to me."
@@ -693,8 +696,8 @@ label story:
     mc "Hm? Think of what?"
     m "Of our reality! I know it’s really different from what you’re used to."
     "Something about that sentence throws me off."
-    "She knows it’s really different…?"
-    mc "Heh, well, I guess you’re right… but it’s not all bad."
+    "She knows it’s really different...?"
+    mc "Heh, well, I guess you’re right... but it’s not all bad."
     mc "If anything, it actually does kind of feel like my reality."
     "Monika slowly nods in response."
     m "Well, I’m glad to hear that. I know that some of the previous subjects didn’t feel the same way, so I just wanted to make sure you felt comfortable here!"
@@ -706,14 +709,14 @@ label story:
     "I feel like I want to talk to her, but she seems pretty focused on what the teacher is doing."
     "I do my best to act as Monika does, focusing on the class, taking notes, and doing whatever it is the teacher would ask."
     "It feels incredibly wrong, but I don’t want to make a bad impression."
-    "Considering how invested she is in the class, I’m surprised she isn’t in honors…"
+    "Considering how invested she is in the class, I’m surprised she isn’t in honors..."
     "After fifty minutes have passed, the bell rings, and we both grab our bags."
-    m "Hey, [player], I wanted to ask…"
+    m "Hey, [player], I wanted to ask..."
     m "...Sayori’s probably already told you about this, but the literature club begins everyday after school."
     m "Be sure to stop by sometime! We’re always excited to get a new member!"
     mc "Don’t worry, I promise I’ll be there."
     "What the hell am I saying!?"
-    "The last place I want to be is at this stupid club, but that smile…"
+    "The last place I want to be is at this stupid club, but that smile..."
     m "That’s great! I’ll see you later, [player]!"
     "She waves and leaves the classroom, as I stand there, still processing what just happened."
     "Getting out of this club is going to be harder than I thought."
@@ -722,8 +725,9 @@ label story:
 
     #Hallway
     #Yellow/Yuri/Jonah
+    scene bg hallway with wipeleft_scene
     "I look down at my schedule."
-    "My next class is… Latin. One of my biggest mistakes was choosing this over Spanish."
+    "My next class is... Latin. One of my biggest mistakes was choosing this over Spanish."
     "The classroom seems to be on the second floor, and in the other wing of the school."
     "It’s going to take me forever to-{w=1.0}{nw}"
     "{i}WHAM!{/i}"
@@ -733,76 +737,85 @@ label story:
     mc "Crap! I’m sorry!"
     "The person I bumped into has flowing purple hair, and eyes that are the same color."
     "Aside from spilling her books all over the floor, she seems okay."
-    anon "N-no, it’s my fault. I should have been paying more attention. And to do this on your first day… I’m s-sorry…"
+    show yuri turned laug om oe at t11
+    anon "N-no, it’s my fault. I should have been paying more attention. And to do this on your first day... I’m s-sorry..."
+    show yuri lsur cm
     "She looks up at me for just a moment before looking away,"
+    show yuri worr
     mc "Don’t worry, it wasn’t your fault. I should have been paying more attention."
     "I start picking up her books from the floor."
-    "These things are shockingly heavy… how the hell does she manage to carry them all to and from each class?"
+    "These things are shockingly heavy... how the hell does she manage to carry them all to and from each class?"
     "Once I’ve gathered them all, I hand them back to her."
-    anon "Th-thank you… you didn’t have to d-do that…"
+    show yuri laug
+    anon "Th-thank you... you didn’t have to d-do that..."
     mc "Don’t worry about it, it’s fine."
+    show yuri neut
     mc "I’m [player], by the way."
     "I reach my hand out, before remembering that her hands were full at the moment, and quickly pull it back."
     "Real smooth, [player]. Real smooth."
-    y "My name is Yuri. I-It’s a pleasure to meet you."
+    y happ om "My name is Yuri. I-It’s a pleasure to meet you."
+    show yuri cm
     mc "Nice to meet you, too. I imagine you’re a part of the literature club too, right?"
-    y "That is correct. I do hope to see you there later today."
-    y "I-I mean, I hope you are w-willing to come. Wait, no, I mean-"
-    y "Uuuuuu… I-I’m sorry."
+    y om "That is correct. I do hope to see you there later today."
+    y flus e2a "I-I mean, I hope you are w-willing to come. Wait, no, I mean-"
+    y flus cm "Uuuuuu... I-I’m sorry."
     "This girl seems to be flustered pretty easily."
     "Having a simple conversation with her may prove to be slightly difficult."
     mc "It’s fine, I know what you’re trying to say."
     mc "And don’t worry, I’ll be at the club after school today."
+    show yuri laug cm
     "Yuri sighs with relief."
     y "In that case, I will see you then."
     "She turns to walk away but stops."
-    y "Umm… What class do you have next?"
+    y "Umm... What class do you have next?"
     mc "Latin. Why do you ask?"
     y "I have Latin next as well. I’ll show you where the classroom is."
-    y "I-If you want me to! I’m sure you already know where it is since… you already have your schedule and… and…"
+    y "I-If you want me to! I’m sure you already know where it is since... you already have your schedule and... and..."
     "She trails off, clearly embarrassed."
     mc "If we’re heading to the same place, no reason not to walk together, right?"
     y "R-Right. In that case, follow me."
     "We start heading towards our next class."
     "The walk is mostly silent, with Yuri occasionally glancing at me before quickly looking away."
     "After a while, I decide to break the silence."
-    mc "Those are a lot of books you’re carrying…"
+    mc "Those are a lot of books you’re carrying..."
     y "Hm?"
     y "W-Well, they’re mostly textbooks, but I also make sure to always have some reading material on me."
     y "It’s always nice to have a book ready to read at a moment's notice, wouldn’t you agree?"
     mc "Well, I’ve never been that big on reading, personally, but I can see the appeal."
-    y "O-Oh… Well, Even if you don’t read often, I’m sure the literature club will make you feel welcome."
-    y "You wouldn’t be the only club member to not read literature…"
+    y "O-Oh... Well, Even if you don’t read often, I’m sure the literature club will make you feel welcome."
+    y "You wouldn’t be the only club member to not read literature..."
     "What does that mean? If it’s a literature club, wouldn’t all of the members be into some form of literature?"
-    "Maybe this means I’ll fit in better than I thought…"
-    mc "Well, you never know. I guess it wouldn’t hurt to try to read something…"
+    "Maybe this means I’ll fit in better than I thought..."
+    mc "Well, you never know. I guess it wouldn’t hurt to try to read something..."
     "What is wrong with me!?"
-    "I don’t know if it was sadness behind Yuri’s eyes, or the look of indifference at mentioning the member that supposedly wasn’t into literature, but something about her look…"
+    "I don’t know if it was sadness behind Yuri’s eyes, or the look of indifference at mentioning the member that supposedly wasn’t into literature, but something about her look..."
     "Whatever it was, I feel like I should at least try to read something for the club."
     mc "Do you have any recommendations?"
     "Yuri smiles to herself."
-    y "Well, there is this one book I’ve been reading recently…"
+    y "Well, there is this one book I’ve been reading recently..."
     y "It’s about a girl who moves in with her long-lost sister. As soon as she does, however, her life starts to get strange."
-    y "She gets targeted by these people who escaped from a human experiment prison…"
+    y "She gets targeted by these people who escaped from a human experiment prison..."
     y "And while her life is in danger, she needs to desperately choose who to trust."
     y "No matter what she does, she ends up destroying most of her relationships and her life starts to fall apart..."
     "Yuri continues to go in depth about the book as we walk."
     "Her stuttering has completely disappeared, and it’s like I’m talking to a totally different person!"
-    "Classroom"
+    hide yuri
+    scene bg class_day with wipeleft_scene
     "She finishes her description of the book as we enter the classroom."
+    show yuri at t11
     mc "That actually sounds really interesting, Yuri! What did you say the name was?"
     y "The Portrait of Markov. I highly recommend it."
     mc "In that case, I’ll be sure to go to the library later today and check it out."
-    y "W-Well, actually…"
+    y "W-Well, actually..."
     "Yuri turns away and starts playing with her hair."
-    y "I-I actually have an extra copy… if you want…"
+    y "I-I actually have an extra copy... if you want..."
     "She hands me a book without making eye contact."
     "It’s a little odd that she has two copies of a book on her, but I decide not to question it."
     "To be fair, I’ve experienced weirder things today."
     mc "Thanks, Yuri! I’ll be sure to check this out!"
-    "I say that, but I’m still not sure if I’m totally willing to read a book this long…"
+    hide yuri
+    "I say that, but I’m still not sure if I’m totally willing to read a book this long..."
     "I put the book into my bag and we each take a seat."
-    "Wipeleft_scene or whatever it’s called"
     "The class goes the same as all of the classes before it, with the teacher going over the work as I occasionally scroll on my phone."
     "Even Yuri doesn’t seem too interested, occasionally opening her book before setting it back down as the teacher talks."
     "Eventually, class ends, and Yuri and I say goodbye before heading our separate ways."
@@ -810,11 +823,11 @@ label story:
 
 
     #Green/Natsuki/Matt
-     #Classroom
+    scene bg class_day with wipeleft_scene
     "After what feels like forever, it’s finally time for eighth period, which is my study hall."
-    "Although, every class so far has felt like a study hall… I’ve been on my phone all day, and I only paid attention in one or two classes."
+    "Although, every class so far has felt like a study hall... I’ve been on my phone all day, and I only paid attention in one or two classes."
     "I take a seat at one of the desks and try to decide on what I should do."
-    "{i}I should really get started on my homework… Considering how little I paid attention, it’ll be a pain to get through later.{/i}"
+    "{i}I should really get started on my homework... Considering how little I paid attention, it’ll be a pain to get through later.{/i}"
     "I start to reach for my bag when something pink catches my eye."
     "A girl with pink hair walks into the classroom, passing my desk without saying a word."
     "She takes a seat at a desk on the opposite side of the room before taking out her phone."
@@ -824,23 +837,26 @@ label story:
     "I take out some homework and begin working on it, occasionally glancing at the girl."
     "{i}I wonder if she’s a member of the club, too...{/i}"
     "After a couple of minutes, the girl finally speaks up."
+    show natsuki at t11
     anon "Are you going to say something, or are you just going to continue staring at me like a creep?"
-    "I’m taken slightly aback by her sudden outburst. She sounds a lot more aggressive than I thought based on her appearance…"
+    "I’m taken slightly aback by her sudden outburst. She sounds a lot more aggressive than I thought based on her appearance..."
     mc "Well, you didn’t say anything when you walked in, so I decided to leave you alone."
     anon "And I would appreciate it if you could keep doing that without staring at me."
     "I take back anything nice I thought about this girl. Who the hell does she think she is?"
     mc "Is this how you greet everybody else, or am I just special?"
     anon "Just shut up! I’m trying to work on something!"
     mc "Gladly!"
+    hide natsuki
     "I turn back to the homework in front of me."
     "We both remain quiet until the end of the period."
-    "Hallway"
+    scene bg hallway with wipeleft_scene
     "When class finally ends, we both get up to leave."
     "As I’m heading out the door, the girl shoves me out of her way."
+    show natsuki at t11
     mc "Do you mind?"
     anon "Sorry, I’m just trying to get somewhere and don’t have time to wait for you while you take your sweet time."
     "I scowl at her before looking at my schedule to see where the Literature Club is."
-    "Seems like it should be right down this hall…"
+    "Seems like it should be right down this hall..."
     "I start walking and, much to my annoyance, notice the girl going in the same direction."
     "Eventually, she stops at a door and turns to me."
     anon "I’m guessing you’re going to the Literature Club?"
@@ -852,35 +868,51 @@ label story:
     mc "You look like you’re a freshman, and that’s being generous."
     anon "Ngh-!"
     "Before the girl can respond, the club door opens."
+    show natsuki at t22 zorder 1
+    show sayori at l21 zorder 2 # make sure sayori shows behind natsuki, these numbers may be reversed
     s "[player]! You really came!"
     mc "Hm? Oh, hey Sayori."
     "Sayori looks between the girl and I."
     s "I see that you met Natsuki! Isn’t she great?"
+    show sayori at t43 # behind Nat for the huggie
     "Sayori wraps her arms around the girl, who is apparently named Natsuki, as she says this, seemingly oblivious to the argument we were having before she intervened."
     n "Hey! Sayori, let go of me!"
+    show sayori at t21
     "Sayori releases Natsuki and turns to me."
     s "Come on, [player]! I want to introduce you to the rest of the club!"
     mc "H-Hey! Sayori!"
     "Sayori grabs my arm and rushes into the clubroom."
-
+    hide natsuki
+    hide sayori
 
     #Blue/Club/Matt
-    #Clubroom
+    scene bg club_day with wipeleft_scene
+    # this might have to be lxx instead of txx, we'll see in testing
+    show sayori at t11
     s "Everyone! The new member is here!"
     "I hesitantly wave."
-    "The only other people in the room are Monika and Yuri, but something about the current situation makes me slightly uneasy…"
+    "The only other people in the room are Monika and Yuri, but something about the current situation makes me slightly uneasy..."
+    show monika at t21
+    show sayori at t22
     m "[player]! Welcome to the club! As I said earlier, I hope that you enjoy the time you spend at the club!"
+    show yuri at t31
+    show monika at t32
+    show sayori at t33
     y "O-Oh, hello, [player]."
     y "It makes me happy to see you join us."
-    y "I-I mean, I’m happy that you decided t-to join, not… uuuuu…"
+    y "I-I mean, I’m happy that you decided t-to join, not... uuuuu..."
+    show natsuki at t41
+    show yuri at t42
+    show monika at t43
+    show sayori at t44
     n "Jeez, Yuri, do you have to trip over yourself all the time?"
-    mc " …"
+    mc "..."
     "Suddenly the reasoning for my feeling of uneasiness becomes clear."
     "As I look between the four club members, I finally understand the situation I’m in."
-    "This club…"
+    "This club..."
     "{i}Is full of incredibly cute girls!{/i}"
     "Dr. Rivera never told me that!"
-    "And I’ll be here with them for the next thirty days… I must have some kind of ultimate luck!"
+    "And I’ll be here with them for the next thirty days... I must have some kind of ultimate luck!"
     mc "Thank you for the warm welcome! I’m looking forward to spending time with all of you."
     "All of the girls smile in response, save for Natsuki, who rolls her eyes in annoyance."
     "{i}Is she always like this?{/i}"
@@ -888,11 +920,19 @@ label story:
     s "Oh! Oh! We should get the cupcakes!"
     "My ears perk up when I hear ‘cupcakes.’"
     "If Sayori had mentioned them to begin with, I would have joined this club instantly, no questions asked."
+    hide natsuki
+    hide sayori
     "Sayori rushes to the back of the classroom and grabs a tray covered in tinfoil, as Natsuki trails behind her, seemingly annoyed."
     y "If we’re having cupcakes now, then why don’t I go prepare some tea?"
+    hide yuri
     "As she says this, Yuri heads to the back of the room as well, leaving me with Monika."
+    show monika at t11
     m "[player], may you please help me move these desks? We usually arrange them to form a table whenever we eat something."
     "After a couple of minutes, the desks are properly arranged, and the cupcake tray and tea pot are placed at the center of the desks."
+    show monika at t44
+    show natsuki at t43
+    show sayori at t42
+    show yuri at t41
     n "Okay, hope you guys are ready..."
     "Once everyone is seated, Natsuki removes the tin foil from the tray."
     s "Uwoah!!!"
@@ -916,9 +956,9 @@ label story:
     "Everyone sits in silence as we eat our cupcakes and sip our tea."
     "After a couple of minutes, Monika speaks up."
     m "So, [player], what kinds of books do you like to read?"
-    mc "Uh… Good question…"
+    mc "Uh... Good question..."
     "I should have seen this coming. Hell, Yuri asked me earlier, and I still haven’t figured out a response that doesn’t make me sound like a loser."
-    mc "Well, I haven’t read much recently…"
+    mc "Well, I haven’t read much recently..."
     mc "But Yuri offered me one of her books, and I’m pretty excited to start reading it!"
     "Yuri blushes slightly as I say this."
     "Did I just accidentally flatter her? By talking about a book of all things?"
@@ -928,13 +968,13 @@ label story:
     "I decide to change the subject."
     mc "Hey, Monika, you said you were the president, right?"
     m "That’s right! I make sure that the club is always fun and enjoyable! Why do you ask?"
-    mc "I was just curious… What exactly do you four do everyday? Do you just read the whole time?"
+    mc "I was just curious... What exactly do you four do everyday? Do you just read the whole time?"
     m "Not the whole time, but we do spend a lot of time reading. We also share poems that we wrote the night before every day."
     "I feel myself freeze."
     "Poems?"
     "Sharing?"
     "I may have made a bigger mistake than I had originally thought."
-    mc "About this ‘poem sharing’, do I… Uh…"
+    mc "About this ‘poem sharing’, do I... Uh..."
     "I’m not entirely sure how to put what I want to say into words."
     "Thankfully, Monika seems to understand what I want to say."
     m "I totally understand if you don’t feel comfortable sharing just yet. Poems are very personal, and it can be difficult to share something like that with people you only just met."
@@ -942,37 +982,48 @@ label story:
     "Yuri and Sayori nod in agreement. Natsuki still seems like she wishes I was gone."
     y "I know that it can be difficult, but if Monika has taught us anything, it’s that you shouldn’t be afraid of something just because it seems difficult."
     s "Yeah! Just write whatever’s in your heart! You can never go wrong with that!"
+    hide sayori
+    hide monika
+    hide natsuki
+    hide yuri
     "I nod as I take in their advice."
     "These girls all seem so different, and yet they’re all so passionate about this club and helping me fit in as the newest member."
-    "Maybe this club isn’t going to be as bad as I thought…"
+    "Maybe this club isn’t going to be as bad as I thought..."
     "We spend the rest of the club talking about different activities and getting to know each other better."
     "Before too long, Monika ends the club, and we all start to head home."
+    show sayori at t11
     s "Hey, [player], where are you going?"
-    mc "Uhh… home?"
+    mc "Uhh... home?"
     s "Don’t you want to walk together?"
     mc "Well, I guess it wouldn’t hurt."
+    hide sayori
     "Sayori smiles and skips over to me."
     "She waves to the other members, and we both start to walk home."
 
 
     #Purple/Walk Home/Jonah
-    #Outside
+    scene bg residential_day with wipeleft_scene
     "As we walk home, I think about everything that happened today."
-    "The bizarre classes, the literature club, it’s members…"
+    "The bizarre classes, the literature club, it’s members..."
     "I wonder if I can get closer to one of these girls?"
     "I’m only in this game for thirty days, but if I put my mind to it, I can make these days count."
     "Even if it’s only temporary, there’s no reason not to give everything my best shot, right?"
     "That’s what Uncle Eric would want me to do, at least."
     "Gotta take every shot that life-"
+    show sayori at t11
     s "Bye, [player]! See you tomorrow!"
     "I turn to see Sayori waving at me as she walks towards her house."
-    "I was so lost in thought I almost forgot we were walking together…"
+    "I was so lost in thought I almost forgot we were walking together..."
     "I wave back."
     mc "See you later, Sayori!"
+    hide sayori
     "I continue my walk home, thinking about the four club members."
-    "{i}If I really want to have a chance, I should probably make a good impression…{/i}"
+    "{i}If I really want to have a chance, I should probably make a good impression...{/i}"
     "{i}And that means writing a poem tonight, even if I don’t have to.{/i}"
+    # end of playtest code
 
+    stop music with fadeout # no idea if this'll even work lmao
+    scene black with wipeleft_scene
     menu:
         "What proceeds is the demo for Act 1. Would you like to keep playing?"
         "Yes":
