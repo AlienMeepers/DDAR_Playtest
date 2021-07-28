@@ -743,7 +743,7 @@ label story:
 
     #Hallway
     #Yellow/Yuri/Jonah
-    scene bg hallway with wipeleft_scene
+    scene bg corridor with wipeleft_scene
     "I look down at my schedule."
     "My next class is... Latin. One of my biggest mistakes was choosing this over Spanish."
     "The classroom seems to be on the second floor, and in the other wing of the school."
