@@ -1042,7 +1042,7 @@ label story:
     "{i}And that means writing a poem tonight, even if I don’t have to.{/i}"
     # end of playtest code
 
-    stop music with fadeout # no idea if this'll even work lmao
+    stop music fadeout 2.0 # no idea if this'll even work lmao
     scene black with wipeleft_scene
     menu:
         "What proceeds is the demo for Act 1. Would you like to keep playing?"
