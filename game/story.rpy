@@ -726,7 +726,7 @@ label story:
     mc "Hm? Uh, sure."
     show monika om
     m "...Sayori’s probably already told you about this, but the literature club begins everyday after school."
-    show monika lup mb
+    show monika lpoint mb
     m "Be sure to stop by sometime! We’re always excited to get a new member!"
     show monika ma
     mc "Don’t worry, I promise I’ll be there."
