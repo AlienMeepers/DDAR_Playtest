@@ -720,19 +720,19 @@ label story:
     "Considering how invested she is in the class, I’m surprised she isn’t in honors…"
     #Honors line is intened to foreshadow the lack of extra classes in this reality, may remove this line later
     "After fifty minutes have passed, the bell rings, and we both grab our bags."
-    show monika neut om oe at t11
+    show monika forward rhip neut om oe at t11
     m "Hey, [player], do you have a minute?"
     show monika ma
     mc "Hm? Uh, sure."
     show monika om
     m "...Sayori’s probably already told you about this, but the literature club begins everyday after school."
-    show monika mb
+    show monika lup mb
     m "Be sure to stop by sometime! We’re always excited to get a new member!"
     show monika ma
     mc "Don’t worry, I promise I’ll be there."
     "What the hell am I saying!?"
     "The last place I want to be is at this stupid club, but that smile…"
-    show monika happ om ce
+    show monika ldown happ om ce
     m "That’s great! I’ll see you later, [player]!"
     show monika at thide
     hide monika
