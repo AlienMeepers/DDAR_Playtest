@@ -581,9 +581,7 @@ label story:
     
     # Playtest code, I think
     # Red/Sayori/Jonah
-    play music t3
-    scene bg club_day with wipeleft_scene
-    show sayori turned happ cm oe at t11
+    show sayori turned happ cm oe
     mc "Sayori, I never said I’d join the club."
     mc "Being perfectly honest, I don’t even like reading."
     show sayori sad
