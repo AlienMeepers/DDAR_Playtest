@@ -674,12 +674,12 @@ label story:
     "It’s now third period, and I had spent all of the last period scrolling through social media."
     "After scrolling on my phone for over two and a half hours, my head feels slightly dazed."
     "I lean back in my chair and close my eyes…"
-    scene bg black with fadeout
+    scene black with dissolve
     "…"
     "…"
     "…"
     anon "...Hello?"
-    scene bg class_day with fadeout
+    scene bg class_day with dissolve
     show monika forward rhip curi cm oe at t11
     "I open my eyes to see a girl standing in front of my desk."
     "She has emerald eyes and brown hair, along with a long, white ribbon."
