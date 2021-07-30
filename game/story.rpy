@@ -896,7 +896,7 @@ label story:
     "I take out some homework and begin working on it, occasionally glancing at the girl."
     "{i}I wonder if she’s a member of the club, too...{/i}"
     "After a couple of minutes, the girl finally speaks up."
-    show natsuki ff angr om oe at t11
+    show natsuki cross angr om oe at t11
     anon "Are you going to say something, or are you just going to continue staring at me like a creep?"
     show natsuki cm
     "I’m taken slightly aback by her sudden outburst. She sounds a lot more aggressive than I thought based on her appearance..."
@@ -910,13 +910,14 @@ label story:
     anon "Just shut up! I’m trying to work on something!"
     show natsuki cm
     mc "Gladly!"
+    show natsuki at thide
     hide natsuki
     "I turn back to the homework in front of me."
     "We both remain quiet until the end of the period."
-    scene bg hallway with wipeleft_scene
+    scene bg corridor with wipeleft_scene
     "When class finally ends, we both get up to leave."
     "As I’m heading out the door, the girl shoves me out of her way."
-    show natsuki anno cm oe at t11
+    show natsuki turned anno cm oe at t11
     mc "Do you mind?"
     show natsuki om
     anon "Sorry, I’m just trying to get somewhere and don’t have time to wait for you while you take your sweet time."
@@ -926,7 +927,7 @@ label story:
     "Seems like it should be right down this hall..."
     "I start walking and, much to my annoyance, notice the girl going in the same direction."
     "Eventually, she stops at a door and turns to me."
-    show natsuki neut om oe at t11
+    show natsuki turned neut om oe at t11
     anon "I’m guessing you’re going to the Literature Club?"
     show natsuki cm
     "I nod."
@@ -940,8 +941,8 @@ label story:
     mc "You look like you’re a freshman, and that’s being generous."
     anon "Ngh-!"
     "Before the girl can respond, the club door opens."
-    show natsuki lsur cm oe at t22 zorder 1
-    show sayori turned lup rup happ om ce at l21 zorder 2 # make sure sayori shows behind natsuki, these numbers may be reversed
+    show natsuki lsur cm oe at t22 zorder 2
+    show sayori turned lup rup happ om ce at l21 zorder 1 # make sure sayori shows behind natsuki, these numbers may be reversed
     s "[player]! You really came!"
     show sayori cm oe
     mc "Hm? Oh, hey Sayori."
@@ -949,7 +950,7 @@ label story:
     show sayori ldown om
     s "I see that you met Natsuki! Isn’t she great?"
     show sayori ce cm at t43 # behind Nat for the huggie
-    show natsuki turmed shoc om ce
+    show natsuki shoc om ce
     "Sayori wraps her arms around the girl, who is apparently named Natsuki, as she says this, seemingly oblivious to the argument we were having before she intervened."
     n "Hey! Sayori, let go of me!"
     show natsuki neut cm oe b1d
