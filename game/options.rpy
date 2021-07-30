@@ -10,7 +10,7 @@ define config.name = "Doki Doki Across Realities"
 define gui.show_name = True
 
 # Version of the game
-define config.version = "Demo 1.0.1"
+define config.version = "Playtest"
 
 # text placed on about screen
 define gui.about = _("Made by MainCharacterMatt and AlienMeepers.")
