@@ -649,7 +649,7 @@ label story:
     "His body is facing us, but his head is lowered in a way that looks like he’s depressed. His arms are stiff at his sides, and his chest doesn’t even move to show signs of breathing."
     "Aside from those clearly non-human traits, perfectly normal."
     show sayori turned neut cm oe at t11
-    mc "Hey, Sayori... What’s the deal with... him."
+    mc "Hey, Sayori... What’s the deal with... him?"
     "I nod in the direction of the teacher."
     s om "Oh, don’t worry, the teachers always act like that. He’ll start moving and talking when class starts."
     show sayori cm
@@ -665,13 +665,13 @@ label story:
     "I look over to Sayori, who has taken out her phone and has her eyes glued to the screen."
     "She doesn’t even attempt to hide it, but the teacher continues to teach as though we were still paying attention."
     "Sayori turns to me."
-    show sayori turned lup neut om oe
+    show sayori turned lup neut om oe at t11
     s "...What? Is something wrong?"
     show sayori cm
     "{i}Shit, I must have been staring at her.{/i}"
     mc "Oh, no, it’s nothing. I just noticed you take your phone out, and..."
     mc "...Is the teaching going to do anything about that?”"
-    s happ ldown om "I don’t even think the teacher’s notice. The only thing you have to do in every class is make sure that you do the work."
+    s happ ldown om "I don’t even think the teachers notice. The only thing you have to do in every class is make sure that you do the work."
     show sayori at thide
     hide sayori
     "Am I hearing this right? Can I really get away with not focusing in class?"
@@ -679,12 +679,12 @@ label story:
     "Just like Sayori said, the teacher continues teaching."
     "A smile creeps across my face."
     "Maybe entering this game wasn’t such a bad idea after all..."
-    scene bg classroom with wipeleft_scene
+    scene bg class_day with wipeleft_scene
     "I spend the rest of class on my phone."
     "I didn’t catch anything the teacher said, but for now, I don’t really care."
     "Man, Josh is gonna be so jealous when he hears about this!"
     "I sling my backpack across my shoulder and start to walk out."
-    show sayori turned lup rup happ om oe
+    show sayori turned lup rup happ om oe at t11
     s "Bye, [player]! See you at the club later!"
     show sayori at thide
     hide sayori
@@ -825,13 +825,14 @@ label story:
     "We start heading towards our next class."
     "The walk is mostly silent, with Yuri occasionally glancing at me before quickly looking away."
     "After a while, I decide to break the silence."
-    show yuri turned neut mf
+    show yuri turned neut mf at t11
     mc "Those are a lot of books you’re carrying..."
     y md b2a "Hm?"
     y laug om oe "W-Well, they’re mostly textbooks, but I also make sure to always have some reading material on me."
     y cm "It’s always nice to have a book ready to read at a moment's notice, wouldn’t you agree?"
     mc "Well, I’ve never been that big on reading, personally, but I can see the appeal."
-    y happ oe e1b "O-Oh... Well, Even if you don’t read often, I’m sure the literature club will make you feel welcome."
+    show yuri happ oe e1b
+    y "O-Oh... Well, Even if you don’t read often, I’m sure the literature club will make you feel welcome."
     y b1a "You wouldn’t be the only club member to not read literature..."
     "What does that mean? If it’s a literature club, wouldn’t all of the members be into some form of literature?"
     "Maybe this means I’ll fit in better than I thought..."
