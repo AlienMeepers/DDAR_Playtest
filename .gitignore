@@ -1,1 +1,5 @@
 *.rpa
+*.rpyb
+*.rpyc
+log.txt
+navigation.json
