@@ -831,9 +831,10 @@ label story:
     y laug om oe "W-Well, they’re mostly textbooks, but I also make sure to always have some reading material on me."
     y cm "It’s always nice to have a book ready to read at a moment's notice, wouldn’t you agree?"
     mc "Well, I’ve never been that big on reading, personally, but I can see the appeal."
-    show yuri happ oe e1b
+   show yuri neut e1b mh
     y "O-Oh... Well, Even if you don’t read often, I’m sure the literature club will make you feel welcome."
     y b1a "You wouldn’t be the only club member to not read literature..."
+    show yuri cm
     "What does that mean? If it’s a literature club, wouldn’t all of the members be into some form of literature?"
     "Maybe this means I’ll fit in better than I thought..."
     mc "Well, you never know. I guess it wouldn’t hurt to try to read something..."
