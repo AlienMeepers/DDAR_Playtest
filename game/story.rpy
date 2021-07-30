@@ -605,8 +605,8 @@ label story:
     "It isn’t long before the school building is in sight, and Sayori and I step inside."
     show sayori at thide
     hide sayori
-    scene bg hallway with wipeleft_scene
-    show sayori turned neut om oe
+    scene bg corridor with wipeleft_scene
+    show sayori turned neut om oe at t11
     s "Do you know where your first class is?"
     show sayori cm
     "I start to answer, but then realize that I have no idea what I’m doing."
@@ -621,7 +621,7 @@ label story:
     "The final ‘class’ is the literature club, which seems to start when school ends, and lasts for..."
     "2 hours!? This sounds more like a form of torture than an after school club."
     "{i}At least you only need to put up with it for today.{/i}"
-    show sayori turned neut cm oe
+    show sayori turned neut cm oe at t11
     mc "Uhh... how did you get my schedule?"
     s om "It was given to the club yesterday. They always give us all of the necessities for the new club members so that you feel right at home!"
     show sayori cm
@@ -648,7 +648,7 @@ label story:
     "The only things that stand out to me are the obvious lack of other students, and the teacher standing at the front of the room."
     "His body is facing us, but his head is lowered in a way that looks like he’s depressed. His arms are stiff at his sides, and his chest doesn’t even move to show signs of breathing."
     "Aside from those clearly non-human traits, perfectly normal."
-    show sayori turned neut cm oe
+    show sayori turned neut cm oe at t11
     mc "Hey, Sayori... What’s the deal with... him."
     "I nod in the direction of the teacher."
     s om "Oh, don’t worry, the teachers always act like that. He’ll start moving and talking when class starts."
@@ -914,7 +914,7 @@ label story:
     scene bg hallway with wipeleft_scene
     "When class finally ends, we both get up to leave."
     "As I’m heading out the door, the girl shoves me out of her way."
-    show natsuki show natsuki anno cm oe at t11
+    show natsuki anno cm oe at t11
     mc "Do you mind?"
     show natsuki om
     anon "Sorry, I’m just trying to get somewhere and don’t have time to wait for you while you take your sweet time."
@@ -1070,7 +1070,7 @@ label story:
     "I should have seen this coming. Hell, Yuri asked me earlier, and I still haven’t figured out a response that doesn’t make me sound like a loser."
     mc "Well, I haven’t read much recently..."
     mc "But Yuri offered me one of her books, and I’m pretty excited to start reading it!"
-    Show yuri shy happ n3 e2 
+    show yuri shy happ n3 e2 
     "Yuri blushes slightly as I say this."
     "Did I just accidentally flatter her? By talking about a book of all things?"
     show monika om oe
