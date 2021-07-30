@@ -831,7 +831,7 @@ label story:
     y laug om oe "W-Well, they’re mostly textbooks, but I also make sure to always have some reading material on me."
     y cm "It’s always nice to have a book ready to read at a moment's notice, wouldn’t you agree?"
     mc "Well, I’ve never been that big on reading, personally, but I can see the appeal."
-   show yuri neut e1b mh
+    show yuri neut e1b mh
     y "O-Oh... Well, Even if you don’t read often, I’m sure the literature club will make you feel welcome."
     y b1a "You wouldn’t be the only club member to not read literature..."
     show yuri cm
@@ -1250,7 +1250,7 @@ label story:
         menu:
             "Cheese?"
             "Cheese.":
-                call cheese
+                call cheese from _call_cheese
             "No cheese.":
                 pass
     else:
