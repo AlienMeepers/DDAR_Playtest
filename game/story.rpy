@@ -894,14 +894,19 @@ label story:
     "I take out some homework and begin working on it, occasionally glancing at the girl."
     "{i}I wonder if she’s a member of the club, too...{/i}"
     "After a couple of minutes, the girl finally speaks up."
-    show natsuki at t11
+    show natsuki ff angr om oe at t11
     anon "Are you going to say something, or are you just going to continue staring at me like a creep?"
+    show natsuki cm
     "I’m taken slightly aback by her sudden outburst. She sounds a lot more aggressive than I thought based on her appearance..."
     mc "Well, you didn’t say anything when you walked in, so I decided to leave you alone."
+    show natsuki mh
     anon "And I would appreciate it if you could keep doing that without staring at me."
+    show natsuki cm
     "I take back anything nice I thought about this girl. Who the hell does she think she is?"
     mc "Is this how you greet everybody else, or am I just special?"
+    show natsuki ce om
     anon "Just shut up! I’m trying to work on something!"
+    show natsuki cm
     mc "Gladly!"
     hide natsuki
     "I turn back to the homework in front of me."
@@ -909,60 +914,80 @@ label story:
     scene bg hallway with wipeleft_scene
     "When class finally ends, we both get up to leave."
     "As I’m heading out the door, the girl shoves me out of her way."
-    show natsuki at t11
+    show natsuki show natsuki anno cm oe at t11
     mc "Do you mind?"
+    show natsuki om
     anon "Sorry, I’m just trying to get somewhere and don’t have time to wait for you while you take your sweet time."
+    show natsuki at thide
+    hide natsuki
     "I scowl at her before looking at my schedule to see where the Literature Club is."
     "Seems like it should be right down this hall..."
     "I start walking and, much to my annoyance, notice the girl going in the same direction."
     "Eventually, she stops at a door and turns to me."
+    show natsuki neut om oe at t11
     anon "I’m guessing you’re going to the Literature Club?"
+    show natsuki cm
     "I nod."
+    show natsuki om b1d
     anon "Why don’t you do us all a favor and just go home? Don’t you know none of us want you here?"
+    show natsuki cm
     "Ouch. This girl really has no chill."
     mc "Look kid, I don’t know who you think you are, but I’ll do what I damn well please, understand?"
+    show natsuki vang cm oe
     anon "Kid!?"
     mc "You look like you’re a freshman, and that’s being generous."
     anon "Ngh-!"
     "Before the girl can respond, the club door opens."
-    show natsuki at t22 zorder 1
-    show sayori at l21 zorder 2 # make sure sayori shows behind natsuki, these numbers may be reversed
+    show natsuki lsur cm oe at t22 zorder 1
+    show sayori turned lup rup happ om ce at l21 zorder 2 # make sure sayori shows behind natsuki, these numbers may be reversed
     s "[player]! You really came!"
+    show sayori cm oe
     mc "Hm? Oh, hey Sayori."
     "Sayori looks between the girl and I."
+    show sayori ldown om
     s "I see that you met Natsuki! Isn’t she great?"
-    show sayori at t43 # behind Nat for the huggie
+    show sayori ce cm at t43 # behind Nat for the huggie
+    show natsuki turmed shoc om ce
     "Sayori wraps her arms around the girl, who is apparently named Natsuki, as she says this, seemingly oblivious to the argument we were having before she intervened."
     n "Hey! Sayori, let go of me!"
-    show sayori at t21
+    show natsuki neut cm oe b1d
+    show sayori cm oe at t21
     "Sayori releases Natsuki and turns to me."
+    show sayori om
     s "Come on, [player]! I want to introduce you to the rest of the club!"
+    show sayori cm
     mc "H-Hey! Sayori!"
     "Sayori grabs my arm and rushes into the clubroom."
+    show sayori at thide
+    show natsuki at thide
     hide natsuki
     hide sayori
 
     #Blue/Club/Matt
     scene bg club_day with wipeleft_scene
+    play music t3
     # this might have to be lxx instead of txx, we'll see in testing
-    show sayori at t11
+    show sayori turned rup lup happ mc ce at t11
     s "Everyone! The new member is here!"
+    show sayori cm ce
     "I hesitantly wave."
     "The only other people in the room are Monika and Yuri, but something about the current situation makes me slightly uneasy..."
-    show monika at t21
-    show sayori at t22
-    m "[player]! Welcome to the club! As I said earlier, I hope that you enjoy the time you spend at the club!"
-    show yuri at t31
-    show monika at t32
+    show monika forward happ om oe at t21
+    show sayori ldown at t22
+    m "[player]! Welcome to the club! As I said earlier, I hope that you enjoy the time you spend here!"
+    show yuri turned happ om oe at t31
+    show monika cm at t32
     show sayori at t33
     y "O-Oh, hello, [player]."
     y "It makes me happy to see you join us."
+    show yuri flus cm oe
     y "I-I mean, I’m happy that you decided t-to join, not... uuuuu..."
-    show natsuki at t41
+    show natsuki forward neut om oe b1d at t41
     show yuri at t42
     show monika at t43
     show sayori at t44
     n "Jeez, Yuri, do you have to trip over yourself all the time?"
+    show natsuki cm b1d
     mc "..."
     "Suddenly the reasoning for my feeling of uneasiness becomes clear."
     "As I look between the four club members, I finally understand the situation I’m in."
@@ -971,62 +996,103 @@ label story:
     "Dr. Rivera never told me that!"
     "And I’ll be here with them for the next thirty days... I must have some kind of ultimate luck!"
     mc "Thank you for the warm welcome! I’m looking forward to spending time with all of you."
+    show sayori rdown oe
+    show yuri happ rup e1b awkw
+    show natsuki anno cm oe
     "All of the girls smile in response, save for Natsuki, who rolls her eyes in annoyance."
     "{i}Is she always like this?{/i}"
     "After a short moment of silence, Sayori starts bouncing excitedly."
+    show sayori lsur om oe at h44
     s "Oh! Oh! We should get the cupcakes!"
-    "My ears perk up when I hear ‘cupcakes.’"
+    "My ears perk up when I hear 'cupcakes'."
     "If Sayori had mentioned them to begin with, I would have joined this club instantly, no questions asked."
+    show natsuki turned angr om oe
+    n "Sayori, wait, I made them, let me get them!"
+    show natsuki at lhide
     hide natsuki
+    show sayori at lhide
     hide sayori
     "Sayori rushes to the back of the classroom and grabs a tray covered in tinfoil, as Natsuki trails behind her, seemingly annoyed."
+    show yuri nobl om oe
     y "If we’re having cupcakes now, then why don’t I go prepare some tea?"
+    show yuri at lhide
     hide yuri
     "As she says this, Yuri heads to the back of the room as well, leaving me with Monika."
-    show monika at t11
+    show monika lpoint om at t11
     m "[player], may you please help me move these desks? We usually arrange them to form a table whenever we eat something."
+    show monika at thide
+    hide monika
     "After a couple of minutes, the desks are properly arranged, and the cupcake tray and tea pot are placed at the center of the desks."
-    show monika at t44
-    show natsuki at t43
-    show sayori at t42
-    show yuri at t41
+    show natsuki turned happ om oe at t11
     n "Okay, hope you guys are ready..."
+    show natsuki cm
     "Once everyone is seated, Natsuki removes the tin foil from the tray."
+    show natsuki at t21
+    show sayori turned happ ml e2a at t22
     s "Uwoah!!!"
     "The cupcakes are designed to look like little cats, with frosting used for eyes and whiskers, and small bits of chocolate for ears."
-    "Everyone looks at the cupcakes in amazement as Natsuki stands confidently. I guess she was the one who made them."
-    "Everyone reaches for a cupcake."
+    "Everyone looks at the cupcakes in amazement as Natsuki stands confidently."
+    "One by one everyone reaches for a cupcake."
+    show sayori rup happ om ce
     s "Mmm! They’re sho good Natshki!"
     "Sayori speaks with her mouthful, and has already managed to get frosting on her face. Somehow I’m not surprised."
     "Yuri and Monika compliment Natsuki on her baking as well."
+    show sayori at thide
+    hide sayori
+    show natsuki at thide
+    hide natsuki
     "Meanwhile, I slowly reach for a cupcake."
     "Once I have one in my hand, I start to rotate it as I look for the best angle to take a bite."
+    show natsuki curi cm oe at t11
     "I can see Natsuki look at me out the corner of my eye as I move the cupcake in my hand."
     "{i}Ironically, the one who was complaining about me staring earlier is staring at me right now...{/i}"
     "I finally bite down on the cupcake."
     "The flavor is unbelievable. I don’t think I’ve ever tasted a cupcake this good!"
     mc "This is really good! Thank you, Natsuki."
     n "Oh, as soon as you get your hands on some cupcakes you decide to act all pleasant?"
+    show natsuki angr om oe at t21
+    show monika forward rhip neut om oe at t22
     m "Natsuki, there’s no need to be rude. He was only thanking you for the cupcakes."
+    show monika cm
+    show natsuki cross fta
     n "Hmph."
+    show monika at thide
+    hide monika
+    show natsuki at thide
+    hide natsuki
     "{i}How can something so sweet be made by someone so sour?{/i}"
     "Everyone sits in silence as we eat our cupcakes and sip our tea."
     "After a couple of minutes, Monika speaks up."
+    show monika forward lpoint happ om oe at t11
     m "So, [player], what kinds of books do you like to read?"
+    show monika cm
     mc "Uh... Good question..."
     "I should have seen this coming. Hell, Yuri asked me earlier, and I still haven’t figured out a response that doesn’t make me sound like a loser."
     mc "Well, I haven’t read much recently..."
     mc "But Yuri offered me one of her books, and I’m pretty excited to start reading it!"
+    Show yuri shy happ n3 e2 
     "Yuri blushes slightly as I say this."
     "Did I just accidentally flatter her? By talking about a book of all things?"
+    show monika om oe
     m "That’s great! I’m glad to see that you’re already getting along with the other members."
+    show monika cm ldown
+    show sayori turned happ om oe at t11
     s "Yeah! [player] is really nice! He even walked with me to school!"
+    show sayori cm
     "{i}I didn’t exactly have a choice...{/i}"
     "I decide to change the subject."
+    show yuri at thide
+    hide yuri
+    show sayori at thide
+    hide sayori
     mc "Hey, Monika, you said you were the president, right?"
+    show monika lpoint rhip om oe
     m "That’s right! I make sure that the club is always fun and enjoyable! Why do you ask?"
+    show monika cm
     mc "I was just curious... What exactly do you four do everyday? Do you just read the whole time?"
+    show monika mh
     m "Not the whole time, but we do spend a lot of time reading. We also share poems that we wrote the night before every day."
+    show monika cm
     "I feel myself freeze."
     "Poems?"
     "Sharing?"
@@ -1034,23 +1100,32 @@ label story:
     mc "About this ‘poem sharing’, do I... Uh..."
     "I’m not entirely sure how to put what I want to say into words."
     "Thankfully, Monika seems to understand what I want to say."
+    show monika mg rdown
     m "I totally understand if you don’t feel comfortable sharing just yet. Poems are very personal, and it can be difficult to share something like that with people you only just met."
+    show monika om
     m "But I promise, we’ll be supportive of whatever you write, regardless of style, and we’re always willing to give you some feedback."
+    show monika cm
     "Yuri and Sayori nod in agreement. Natsuki still seems like she wishes I was gone."
+    show yuri turned happ om oe at t31
     y "I know that it can be difficult, but if Monika has taught us anything, it’s that you shouldn’t be afraid of something just because it seems difficult."
+    show sayori turned happ om oe at t31
     s "Yeah! Just write whatever’s in your heart! You can never go wrong with that!"
+    show sayori at thide
+    show monika at thide
+    show yuri at thide
     hide sayori
     hide monika
-    hide natsuki
     hide yuri
     "I nod as I take in their advice."
     "These girls all seem so different, and yet they’re all so passionate about this club and helping me fit in as the newest member."
     "Maybe this club isn’t going to be as bad as I thought..."
     "We spend the rest of the club talking about different activities and getting to know each other better."
     "Before too long, Monika ends the club, and we all start to head home."
-    show sayori at t11
+    show sayori turned neut lup om oe at t11
     s "Hey, [player], where are you going?"
+    show sayori cm
     mc "Uhh... home?"
+    show saori om
     s "Don’t you want to walk together?"
     mc "Well, I guess it wouldn’t hurt."
     hide sayori
@@ -1067,16 +1142,39 @@ label story:
     "Even if it’s only temporary, there’s no reason not to give everything my best shot, right?"
     "That’s what Uncle Eric would want me to do, at least."
     "Gotta take every shot that life-"
-    show sayori at t11
+    show sayori turned lup rup happ om oe at t11
     s "Bye, [player]! See you tomorrow!"
+    show sayori cm
     "I turn to see Sayori waving at me as she walks towards her house."
     "I was so lost in thought I almost forgot we were walking together..."
     "I wave back."
     mc "See you later, Sayori!"
+    show sayori at thide
     hide sayori
     "I continue my walk home, thinking about the four club members."
     "{i}If I really want to have a chance, I should probably make a good impression...{/i}"
     "{i}And that means writing a poem tonight, even if I don’t have to.{/i}"
+
+
+
+    "I open the door to my house and step inside."
+    "{i}After today's events, I'm not really sure how I feel...{/i}"
+    mc "Guess I need to-{nw}"
+    show sayori turned angr om oe at t11
+    s "WHAT ARE YOU DOING!?"
+    show sayori cm
+    mc "AH!"
+    show sayori anno om oe
+    s "The playtest is over, dummy!"
+    show sayori cm
+    mc "Already? What, you mean the developers have only finished a single day?"
+    show sayori neut om oe
+    s "Pretty much, yeah. They still have a lot more work to do, and all this scene is doing is wasting their time!"
+    s "Now you! The player!"
+    show sayori happ om oe
+    s "Firstly, thank you for playing the first playtest! The developers are doing their best to keep this project going, so thank you for supporting it!"
+    show sayori vang om ce
+    s "Now stop being useless and go give Matt and Meep your feedback!"
     # end of playtest code
 
     stop music fadeout 2.0 # no idea if this'll even work lmao
