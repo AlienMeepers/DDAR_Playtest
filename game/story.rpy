@@ -985,7 +985,7 @@ label story:
     y "It makes me happy to see you join us."
     show yuri flus cm oe
     y "I-I mean, I’m happy that you decided t-to join, not... uuuuu..."
-    show natsuki forward neut om oe b1d at t41
+    show natsuki turned neut om oe b1d at t41
     show yuri at t42
     show monika at t43
     show sayori at t44
@@ -1046,14 +1046,15 @@ label story:
     hide natsuki
     "Meanwhile, I slowly reach for a cupcake."
     "Once I have one in my hand, I start to rotate it as I look for the best angle to take a bite."
-    show natsuki curi cm oe at t11
+    show natsuki turned curi cm oe at t11
     "I can see Natsuki look at me out the corner of my eye as I move the cupcake in my hand."
     "{i}Ironically, the one who was complaining about me staring earlier is staring at me right now...{/i}"
     "I finally bite down on the cupcake."
     "The flavor is unbelievable. I don’t think I’ve ever tasted a cupcake this good!"
     mc "This is really good! Thank you, Natsuki."
+    show natsuki angr om oe
     n "Oh, as soon as you get your hands on some cupcakes you decide to act all pleasant?"
-    show natsuki angr om oe at t21
+    show natsuki cm at t21
     show monika forward rhip neut om oe at t22
     m "Natsuki, there’s no need to be rude. He was only thanking you for the cupcakes."
     show monika cm
@@ -1073,13 +1074,13 @@ label story:
     "I should have seen this coming. Hell, Yuri asked me earlier, and I still haven’t figured out a response that doesn’t make me sound like a loser."
     mc "Well, I haven’t read much recently..."
     mc "But Yuri offered me one of her books, and I’m pretty excited to start reading it!"
-    show yuri shy happ n3 e2 
+    show yuri shy happ n3 e2 at t33
     "Yuri blushes slightly as I say this."
     "Did I just accidentally flatter her? By talking about a book of all things?"
     show monika om oe
     m "That’s great! I’m glad to see that you’re already getting along with the other members."
     show monika cm ldown
-    show sayori turned happ om oe at t11
+    show sayori turned happ om oe at t31
     s "Yeah! [player] is really nice! He even walked with me to school!"
     show sayori cm
     "{i}I didn’t exactly have a choice...{/i}"
@@ -1109,7 +1110,7 @@ label story:
     m "But I promise, we’ll be supportive of whatever you write, regardless of style, and we’re always willing to give you some feedback."
     show monika cm
     "Yuri and Sayori nod in agreement. Natsuki still seems like she wishes I was gone."
-    show yuri turned happ om oe at t31
+    show yuri turned happ om oe at t33
     y "I know that it can be difficult, but if Monika has taught us anything, it’s that you shouldn’t be afraid of something just because it seems difficult."
     show sayori turned happ om oe at t31
     s "Yeah! Just write whatever’s in your heart! You can never go wrong with that!"
@@ -1128,11 +1129,13 @@ label story:
     s "Hey, [player], where are you going?"
     show sayori cm
     mc "Uhh... home?"
-    show saori om
+    show sayori om
     s "Don’t you want to walk together?"
     mc "Well, I guess it wouldn’t hurt."
-    hide sayori
+    show sayori happ cm ce
     "Sayori smiles and skips over to me."
+    show sayori at thide
+    hide sayori
     "She waves to the other members, and we both start to walk home."
 
 
