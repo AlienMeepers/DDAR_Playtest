@@ -1155,8 +1155,8 @@ label story:
     "{i}If I really want to have a chance, I should probably make a good impression...{/i}"
     "{i}And that means writing a poem tonight, even if I don’t have to.{/i}"
 
-
-
+    scene bg kitchen with wipeleft_scene
+    play music t6
     "I open the door to my house and step inside."
     "{i}After today's events, I'm not really sure how I feel...{/i}"
     mc "Guess I need to-{nw}"
